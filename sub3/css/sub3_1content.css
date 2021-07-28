@@ -1,0 +1,58 @@
+.title_area{position: relative;}
+.tab{height: 60px; margin: 150px 0 auto; text-transform: uppercase; position: relative;}
+.tab::before{content: ''; display: block;position: absolute; top: 4px; width:100%; height: 1px; background: #ccc; transition: all .5s; z-index:-1;}
+.tab li{float: left; }
+.tab li a{font-size: 18px; width: 400px; transition: all .5s; display: block; padding:18px 0; text-align: center; }
+.tab li::before{content:""; display: block; margin: 0 auto; background: #ccc; transition: all .5s; width: 10px; height: 10px; border-radius: 50%;}
+.tab li:hover a{color: #0065b3; font-weight: 600; }
+.tab li:hover::before{background: #0065b3; transform: scale(1.2); }
+.tab li.current a{color:#0065b3; font-weight: 600;}
+.tab li.current::before{background:#0065b3;transform: scale(1.2);}
+
+
+.con{display: none; margin-bottom: 150px;}
+
+
+.con_slogan{text-align: center; margin: 200px 0 150px 0;}
+.con_slogan h3{font-size: 40px; font-weight: bold; margin-bottom: 100px;}
+.con_slogan p{ font-size: 24px; line-height: 2em;}
+.con_slogan span{color:#0065b3; font-weight: 600;}
+.con_slogan span.color{color:#fa7c01; font-weight: 600;}
+
+
+.icon_box{width: 2000px; margin-left: -360px; height: 300px; background: linear-gradient(-45deg,#0065b3,rgba(0, 101, 179, .6));overflow: hidden;}
+.icon_box img{width: 120px; height: 120px; padding-left: 90px;}
+.icon_box .inner_box{width: 1200px; margin-left: 350px;}
+.icon_box .icon{width: 25%; float: left; margin-top: 70px;}
+.icon_box .icon p{color:#fff; font-size: 18px; font-weight: 600; text-align: center; margin-top: 20px;}
+
+
+.imgcont{width: 100%; height: 400px; position: relative;}
+.imgcont .img_con{position: absolute; top:0; left:0; width: 600px; height: 100%; transition: all 1.2s ease-out; overflow: hidden;}
+.imgcont .img_con img{position: absolute; top:0; right: 0;}
+.imgcont:hover .img_con{position: absolute; top:0; left: -600px; width: 100%;}
+.imgcont .txt_con{width: 600px; height: 400px; float: right;}
+.imgcont .txt_con dt{font-size: 40px; margin: 100px 0 90px 0; text-align: left; padding-left: 50px;}
+.imgcont .txt_con dd{margin: 20px 0; text-align: left; padding-left: 50px;}
+
+
+
+.imgcont1{width: 100%; height: 400px; position: relative;}
+.imgcont1 .txt_con1{width: 600px; height: 400px; float: left;}
+.imgcont1 .txt_con1 dt{font-size: 40px; margin: 100px 0 90px 0; text-align: right; padding-right: 50px;}
+.imgcont1 .txt_con1 dd{margin: 20px 0; text-align: right; padding-right: 50px;}
+.imgcont1 .img_con1{position: absolute; top:0; right:0;  width: 600px; height: 100%; transition: all 1.2s ease-out; overflow: hidden;}
+.imgcont1 .img_con1 img{position: absolute; top:0; left: 0;}
+.imgcont1:hover .img_con1{width: 100%; position: absolute; right:-600px;}
+
+
+.imgcont2{width: 100%; height: 400px; position: relative; margin-bottom: 250px;}
+
+.imgcont2 .img_con{position: absolute; top:0; left:0; width: 600px; height: 100%; transition: all 1.2s ease-out; overflow: hidden;}
+.imgcont2 .img_con img{position: absolute; top:0; right: 0;}
+.imgcont2 .img_con:hover{position: absolute; top:0; left: -600px; width: 100%;}
+.imgcont2 .txt_con{width: 600px; height: 400px;float: right;}
+.imgcont2 .txt_con dt{font-size: 40px; margin: 100px 0 90px 0; text-align: left; padding-left: 50px;}
+.imgcont2 .txt_con dd{margin: 20px 0; text-align: left; padding-left: 50px;}
+.imgcont2:hover .img_con{position: absolute; top:0; left: -600px; width: 100%;}
+ 

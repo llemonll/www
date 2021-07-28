@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:나눔고딕, NanumGothic; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+
+.hidden,#skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+/* 헤드라인 폰트 연결 */
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; font-weight:700*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; font-weight:700 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Myeongjo', serif; font-weight:700 */
+
+/* 전체 공통 */
+#wrap{width:100%; position: relative;  overflow:hidden;}
+
+/* 헤더 공통 */
+
+#headerArea{background: #0065b3;}
+.header_top{overflow: hidden;}
+.header_top h1{float: left; margin: 15px 0 0 5%;}
+.header_top h1 a{display: block; width: 75px; height: 28px; background: url(../images/logo_320.png) 0 0 no-repeat; text-indent: -9999px; }
+.header_top a span{text-indent: -9999px;}
+.menu_btn{display: block; float:right;  position: relative; height: 50px;}
+.menu_btn span{width: 20px; height: 4px; background: #fff; position: relative; text-indent: -999px; display: block; margin: 20px; transition: all .5s; border-radius: 5px;}
+.menu_btn span::before{content: ''; display: block; width: 20px; height: 4px; background: #fff; position: absolute; top:-7px; left:0; border-radius: 5px; transition: all .5s;}
+.menu_btn span::after{content: ''; display: block; width: 20px; height: 4px; background: #fff; position: absolute; top:7px; left:0; border-radius: 5px; transition: all .5s;}
+
+.back_box{width: 100%; height: 100%; background: #000; opacity: 0.7; position: absolute; top:50px; left:0; z-index: 11; display: none;}
+/*메뉴 오픈*/
+#headerArea.mn_open .menu_btn span, #headerArea.mn_open .menu_btn span::before, #headerArea.mn_open .menu_btn span::after {
+                                      background: #fff; transition: all 1s;}
+#headerArea.mn_open .menu_btn span {background: rgb(251, 251, 251, 0); transition: all 1s;}
+#headerArea.mn_open .menu_btn span::before {transform: rotate(45deg); top: 0; transition: all 1s;}
+#headerArea.mn_open .menu_btn span::after {transform: rotate(-45deg); top: 0; transition: all 1s;}
+
+/* 네비 공통*/
+
+#gnb{position: absolute; width:70%; right:-70%; top:50px; opacity: 0; background: #fff; z-index:20;}
+
+.depth1{border-top:1px solid #ccc; text-align:center;  font-weight:bold;}
+
+.depth1.first{border-top:none;}
+.depth1 a{display: block; padding: 15px 0; font-size: 1.5em; text-align: left; margin-left: 10%;} 
+.depth1 a span{margin-left: 60%;}
+.depth1 ul{display:none}
+.depth1 ul li{background: rgba(233, 232, 232,.3); font-weight: normal;}
+.depth1 ul li a{font-size: 16px; margin-left: 20%; position: relative; color:#666; padding:12px 0}
+.depth1 ul li a::before{content: ''; display: block; width: 15px; height: 1px; background: #ccc; position: absolute; top: 21px; left:-32px;}
+.depth1 ul li:nth-child(1){border-top: 1px solid#ccc;}
+.sns{position: relative;}
+.sns ul{overflow: hidden; position: absolute; top:0; width: 100%; }
+.sns ul li{width: 33.33%; float: left; text-align: center; padding: 3% 0;}
+.sns ul li a img{width:20%}
+.sns ul li:nth-child(1){background-color: #1976d2;}
+.sns ul li:nth-child(2){background: #e53935;}
+.sns ul li:nth-child(3){background: #03a9f4;}
+
+
+
+/* 푸터 공통 */
+
+#footerArea{background:#222; color:#fff; overflow: hidden;}
+.footer_left{width:50%;  padding: 2% 0;border-bottom:1px solid#fff; float: left; position: relative;}
+.footer_left span{display: block;background: url(../images/logo_320.png) 49% 0 no-repeat; text-indent: -999px; font-size: 1.1em; }
+.footer_right{width: 50%;  float: right; border-bottom:1px solid#fff;text-align: center; position: relative;  }
+.footer_right .arrow{color:#fff; font-size: 1.1em; width: 62%; border-left: 1px solid#fff; padding: 4% 16% ; display: block; }
+.footer_right .arrow i{position: absolute; top:26%; right:13%}
+.footer_right .family_list{position: absolute; top:100%; left:0; border:1px solid #fff; width: 100%; display: none; background: #222; }
+.footer_right .family_list li{border-bottom:1px solid#fff; position: relative; left:0;padding: 3px 0;}
+.footer_right .family_list li:hover{background: #0065b3;}
+.footer_right .family_list li a{display: block;  padding: 7px 0; color:#fff}
+.family_menu{clear: both;}
+.family_menu ul{overflow: hidden; width: 100%; margin-bottom: 5%;}
+.footer_menu ul li{float: left; width: 33.3%; margin: 4% 0; text-align: center;}
+.footer_menu ul li a{color:#fff; font-size: 1.1em;}
+.copyright{margin-left: 5%;}
+.copyright address{line-height: 2em;}
+.copyright p{margin-top: 5%; padding-bottom:4%;}
+
+
+/* 상단 이동*/
+
+.topMove {display:block; width: 40px; height: 40px; position: fixed; right:30px; bottom: 50px; background: #0065b3; border-radius: 10px; z-index: 10;;}
+
+.topMove i { color: #fff; display: block; font-size: 1.4em; text-align: center; line-height: 40px;}
+
+
+
+

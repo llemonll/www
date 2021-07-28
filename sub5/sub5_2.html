@@ -1,0 +1,206 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대우조선해양:투자 정보</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+       
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+     <!--[if IE 9]>  
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <![endif]-->
+
+
+
+</head>
+<body>
+    
+    <div class="wrap">
+        <!--서브헤더영역 -->
+        <? include "../common/sub_head.html" ?> 
+
+
+        <div class="visual"></div>
+
+        <div class="sub_menu">
+            <h3>투자 정보</h3>
+            <ul>
+                <li><a href="sub5_1.html">주가 정보</a></li>
+                <li class="current"><a href="sub5_2.html">재무 정보</a></li>
+                <li><a href="sub5_3.html">건의 사항</a></li>
+            </ul>
+            <div class="line_map">
+                홈 &gt; 투자 정보 &gt;<strong> 재무 정보</strong>
+            </div>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                
+                <h2>재무 정보</h2> 
+                <div class="slogan">
+                    <p>투명한 기업 지배 구조를 바탕으로 <span>주주 가치</span> 와 <span class="color">기업 가치</span>를 극대화 합니다.</p>
+                </div>       
+            </div>
+            <div class="content_area">
+                <div class="tb1">
+                    <h3>재무 상태</h3>
+                    <p>단위 : 백만원</p>
+                  <table>
+                      <thead>
+                          <tr>
+                              <th scope="col">항목</th>
+                              <th scope="col">2016년</th>
+                              <th scope="col">2017년</th>
+                              <th scope="col">2018년</th>
+                              <th scope="col">2019년</th>
+                              <th scope="col">2020년</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">자산 총계</th>
+                              <td>13,483,738</td>
+                              <td>11,022,744</td>
+                              <td>11,736,776</td>
+                              <td>11,067,648</td>
+                              <td>10,153,130</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">유동 자산</th>
+                              <td>7,260,112</td>
+                              <td>6,566,789</td>
+                              <td>7,328,629</td>
+                              <td>11,067,648</td>
+                              <td>5,892,256</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">비유동 자산</th>
+                              <td>6,223,627</td>
+                              <td>4,455,955</td>
+                              <td>4,408,147	</td>
+                              <td>4,253,811</td>
+                              <td>4,260,874</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">부채 총계</th>
+                              <td>13,244,821</td>
+                              <td>8,278,728</td>
+                              <td>8,005,010</td>
+                              <td>7,436,139</td>
+                              <td>6,386,353</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">유동 부채</th>
+                              <td>11,409,145</td>
+                              <td>6,042,129</td>
+                              <td>5,292,816</td>
+                              <td>4,732,767</td>
+                              <td>5,097,551</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">비유동 부채</th>
+                              <td>1,835,676	</td>
+                              <td>2,236,598</td>
+                              <td>2,712,194</td>
+                              <td>2,703,373</td>
+                              <td>1,288,802</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">자본 총계</th>
+                              <td>238,917</td>
+                              <td>2,744,016	</td>
+                              <td>3,731,766</td>
+                              <td>3,631,509</td>
+                              <td>3,766,777</td>
+                        </tr>
+                      </tbody>
+                  </table>  
+                </div>
+                <div class="tb2">
+                    <h3>손익계산서</h3>
+                    <p>단위 : 백만원</p>
+                  <table>
+                      <thead>
+                          <tr>
+                              <th scope="col">항목</th>
+                              <th scope="col">2016년</th>
+                              <th scope="col">2017년</th>
+                              <th scope="col">2018년</th>
+                              <th scope="col">2019년</th>
+                              <th scope="col">2020년</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">매출액</th>
+                              <td>11,385,450</td>
+                              <td>10,634,033</td>
+                              <td>9,599,759</td>
+                              <td>8,317,582</td>
+                              <td>7,041,551</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">매출 총 이익</th>
+                              <td>-684,601</td>
+                              <td>1,501,138</td>
+                              <td>761,787</td>
+                              <td>445,533</td>
+                              <td>393,163</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">영업 이익</th>
+                              <td>-1,413,548</td>
+                              <td>716,503</td>
+                              <td>1,044,403</td>
+                              <td>268,058</td>
+                              <td>152,360</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">당기순이익</th>
+                              <td>-2,990,997</td>
+                              <td>739,144</td>
+                              <td>946,109</td>
+                              <td>-57,722</td>
+                              <td>114,537</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">영업이익률</th>
+                              <td>(영업손실)</td>
+                              <td>6.7%</td>
+                              <td>10.9%</td>
+                              <td>3.2%</td>
+                              <td>2.2%</td>
+                        </tr>
+                        
+                      </tbody>
+                  </table>  
+                </div>
+            </div>    
+            
+        </article>
+
+        <!--서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+            <!--  JQuery -->
+            <script src="../common/js/jquery-1.12.4.min.js"></script>
+            <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>  
+            <script src="../common/js/gnb.js"></script>
+</body>
+</html>

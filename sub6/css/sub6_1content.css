@@ -1,0 +1,69 @@
+
+.con1_icon dl{ position: relative; top:0; opacity: 0; transition: all 2s;}
+.con1_icon dl.boxMove{ opacity: 1;}
+
+
+.content_area{background: #f8f8f8; width: 2000px; position: relative; left: 50%; margin-left: -1000px;}
+.con1_slogan{ margin: 150px 0 150px 30px; position: relative; padding-top: 100px;}
+.con1_slogan h3{font-size: 40px; font-weight: bold; margin-bottom: 100px; }
+.con1_slogan h3::before{content: ''; display: block; width: 5px; height: 50px; background:  #0065b3; position: absolute; top:100px; left:-30px;}
+.con1_slogan p{ font-size: 24px; line-height: 2em;}
+.con1_slogan span{color:#0065b3; font-weight: 600;}
+.con1_slogan span.color{color:#fa7c01; font-weight: 600;}
+
+.con1{width: 1200px; margin: 0 auto;  position: relative;}
+.con1 .con1_tit{background: url(../images/content1/con3.svg) no-repeat; width: 430px; height: 430px; margin-left: 385px; }
+.con1 .con1_tit .icon{padding: 170px 180px 0 180px;}
+.con1 .con1_tit .icon p{padding-top: 20px; text-align: center; font-weight: 600; position: relative;}
+.con1_tit p::after{content: ''; display: block; border:1px solid #0065b3; width: 440px; height: 440px; border-style:dashed; border-radius: 50%; position: absolute; top:-239px; left:-186px }
+.con1 .con1_icon dl{width: 200px; display: block;}
+.con1 .con1_icon dt{font-weight: 600; }
+.con1 .con1_icon dd{padding-top: 7px;}
+
+.con1 .con1_icon dl::before{content: ''; display: block; border-radius: 50%; }
+.con1 .con1_icon dl:nth-child(1)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_1.png) no-repeat center; right:220px; top:-15px;background-color: #0065b3;}
+.con1 .con1_icon dl:nth-child(2)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_2.png) no-repeat center; right:220px; top:-20px;background-color: #0065b3;}
+.con1 .con1_icon dl:nth-child(3)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_3.png) no-repeat center; right:220px; top:-20px;background-color: #0065b3;}
+.con1 .con1_icon dl:nth-child(4)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_6.png) no-repeat center; left:220px; top:-15px;background-color: #0065b3;}
+.con1 .con1_icon dl:nth-child(5)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_5.png) no-repeat center; left:220px; top:-20px;background-color: #0065b3;}
+.con1 .con1_icon dl:nth-child(6)::before{width: 80px; height: 80px; position: absolute; background: url(../images/content1/icon1_4.png) no-repeat center; left:220px; top:-20px;background-color: #0065b3;}
+
+.con1 .con1_icon dl:nth-child(1){position: absolute; top:280px; right:20px;}
+.con1 .con1_icon dl:nth-child(2){position: absolute; top:490px; right:-60px;}
+.con1 .con1_icon dl:nth-child(3){position: absolute; top:700px; right:20px;}
+.con1 .con1_icon dl:nth-child(4){position: absolute; top:280px; left:20px; text-align: right;}
+.con1 .con1_icon dl:nth-child(5){position: absolute; top:490px; left:-60px; text-align: right;}
+.con1 .con1_icon dl:nth-child(6){position: absolute; top:700px; left:20px; text-align: right;}
+
+.con1 .con1_icon dl:nth-child(1)::after{content: ''; display: block; width: 80px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; right:340px}
+.con1 .con1_icon dl:nth-child(2)::after{content: ''; display: block; width: 60px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; right:330px}
+.con1 .con1_icon dl:nth-child(3)::after{content: ''; display: block; width: 80px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; right:340px}
+.con1 .con1_icon dl:nth-child(4)::after{content: ''; display: block; width: 80px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; left:340px}
+.con1 .con1_icon dl:nth-child(5)::after{content: ''; display: block; width: 60px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; left:330px}
+.con1 .con1_icon dl:nth-child(6)::after{content: ''; display: block; width: 80px; border: 1px solid #0065b3; border-style: dashed; position: absolute; top:25px; left:340px}
+
+.con2{width: 1200px; margin: 0 auto;}
+.con2 .con2_list ul{overflow:hidden;}
+.con2 .con2_list li{width: 580px; float: left; margin:0  40px 40px 0;}
+.con2 .con2_list li:nth-child(even){margin-right:0;}
+
+.con2 .con2_list li dl{border: 1px solid #ccc; height: 380px; background: #fff; }
+.con2 .con2_list li dt{text-align: center; padding: 89px 0 ; font-size: 30px; font-weight: 600; color:#fff; height: 30px;}
+.con2 .con2_list li:nth-child(1) dt{background: url(../images/content1/con3_1.jpg)no-repeat; }
+.con2 .con2_list li:nth-child(2) dt{background: url(../images/content1/con3_2.jpg)no-repeat; }
+.con2 .con2_list li:nth-child(3) dt{background: url(../images/content1/con3_3.jpg)no-repeat; }
+.con2 .con2_list li:nth-child(4) dt{background: url(../images/content1/con3_4.jpg)no-repeat; }
+.con2 .con2_list li dd{line-height: 1.7em; position: relative; text-align: justify; height: 60px; padding: 20px 30px 0 30px; background: #fff;}
+.con2 .con2_list li dd::before{content: ''; display: block; width: 4px; height: 4px; background: #a1a1a1; position: absolute; left:17px; top:35px}
+
+
+
+.con3{overflow: hidden; width: 1200px; margin: 0 auto; padding-bottom: 200px;}
+.con3 .con3_box{width: 278px; border: 1px solid#ccc; text-align: center; float: left; margin-right: 26px; background: #fff;}
+.con3 .con3_box:nth-child(5){margin-right:0; }
+.con3 .con3_box strong{padding: 20px 0; font-weight: 600; font-size: 20px; display:block; position: relative;}
+.con3 .con3_box strong::after{content: ''; display: block; width: 82px; height: 1px; background: #333; position: absolute; bottom:5px; left:97px}
+.con3 .con3_box img{width: 100px; height: 100px; margin-top: 40px;}
+.con3 .con3_box p{margin-top:30px; line-height: 2.3em; padding: 20px 0;} 
+.con3 .con3_box span{color:#fa7c01; font-weight: 600;}
+.con3 .con1_slogan{ margin: 0 0 150px 30px; position: relative; padding-top: 100px;}

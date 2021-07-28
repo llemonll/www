@@ -1,0 +1,84 @@
+                                          
+/* 글로벌 네트워크*/
+
+
+#content .content_area{width:1200px; margin: 0 auto;}
+
+
+
+#content .content_area::before{content: ''; display: block; position: absolute; left:50%; top:1030px;
+                                        width: 3px; height: 120px; background: #0065b3;}
+
+
+#content .content_area .samwoo{margin-top: 250px; position: relative;}
+#content .content_area .samwoo::before{content: ''; display:inline-block; width: 700px; height: 3px; background: #0065b3; position: absolute;
+                                       top:386px;}
+                                     
+#content .content_area .samwoo::after{content: ''; display: inline-block; width: 700px; height: 3px; background: #0065b3; position: absolute;
+                                        top:888px; left:500px}
+#content .content_area .samwoo h3{margin: 150px 0 100px 0; font-size: 40px; font-family: '나눔명조'; text-align: center;}
+#content .content_area .samwoo p{font-size: 22px; font-family: '나눔명조'; font-weight: bold; text-align: center; margin-bottom: 150px; line-height: 2em;}
+#content .content_area .samwoo p span{color:#0065b3;}
+#content .content_area .samwoo p span.color{color:#fa7c01;}
+
+#content .content_area .samwoo table{width: 100%; height: 500px; border-collapse:collapse; font-size: 20px;}
+
+
+#content .content_area .samwoo th{font-weight: unset; width: 450px;}
+#content .content_area .samwoo tr:not(:last-child){border-bottom:1px solid#ccc}
+#content .content_area .samwoo th, td{padding: 10px;text-align: center;}
+
+
+
+#content .content_area .sandong{margin-top: 250px; position: relative;}
+#content .content_area .sandong::before{content: ''; display:inline-block; width: 700px; height: 3px; background: #0065b3; position: absolute;
+                                        top:396px;}
+#content .content_area .sandong::after{content: ''; display: inline-block; width: 700px; height: 3px; background: #0065b3; position: absolute;
+                                        top:888px; left:500px}
+#content .content_area .sandong h3{margin: 150px 0 100px 0; font-size: 40px; font-family: '나눔명조'; text-align: center;}
+#content .content_area .sandong p{font-size: 22px; font-family: '나눔명조'; font-weight: bold; text-align: center; margin-bottom: 150px; line-height: 2em;}
+#content .content_area .sandong p span{color:#0065b3;}
+#content .content_area .sandong p span.color{color:#fa7c01;}
+
+#content .content_area .sandong table{width: 100%; height: 500px; border-collapse: collapse; font-size: 20px;}
+
+#content .content_area .sandong th{font-weight: unset; width: 450px;}
+#content .content_area .sandong tr:not(:last-child){border-bottom:1px solid#ccc}
+#content .content_area .sandong th, td{padding: 10px; text-align: center;}
+
+#content .content_area img{margin-top: 200px;}
+
+
+#content .content_area .global{margin: 250px 0 250px 0;}
+#content .content_area .global h3{margin: 150px 0 100px 0; font-size: 40px; font-family: '나눔명조'; text-align: center;}
+#content .content_area .global p{font-size: 22px; font-family: '나눔명조'; font-weight: bold; text-align: center; margin-bottom: 150px; line-height: 2em;}
+#content .content_area .global span{color:#0065b3;}
+#content .content_area .global span.color{color:#fa7c01;}
+
+
+#content .content_area .global .areainfo{display:block; height: 830px;}
+#content .content_area .global li{float:left; overflow:hidden; background:#fff; border:1px solid #ddd;
+	                              width:378px; height:382px; margin:0 29px 29px 0; text-align:left;}
+#content .content_area .global li::before{content:""; display:block; width:380px; height: 382px;
+                                    background:url(../images/content3/glo_2_03.jpg) no-repeat; opacity: .6;
+                                    position:absolute;}
+#content .content_area .global li a{display:block; position:relative; width:338px; height:220px; padding:75px 0 88px 40px;}
+
+#content .content_area .global li.right{margin-right: 0;}
+#content .content_area .global li .box{display:inline-block; background:#0065b3; padding:0 15px; font-family:"나눔고딕";
+                                            font-size:18px; color:#fff; text-align:center;line-height:30px; position:absolute; left:0; top:0;}
+#content .content_area .global li .name{font-family:"나눔고딕"; font-size:24px;}
+#content .content_area .global li a dl{margin:35px 0 0;}
+#content .content_area .global li a dl dt{font-family:"roboto";font-size:20px;color:#0065b3; text-transform: uppercase;}
+#content .content_area .global li a dl dd{font-size:18px; color:#666; line-height:2em; margin-top:20px;}
+#content .content_area .global li a .btn_map{position:absolute; left:40px; bottom:40px; transition:all .3s;}
+#content .content_area .global li a .btn_map::before{content: ''; display: block; background: url(../images/content3/octagon.svg)no-repeat ; width: 75px; height: 75px;
+                                                    position: absolute; top: -27px; left:-20px;}                                                 
+#content .content_area .global li a .btn_map:hover{transform:rotate(90deg); transition:all 1s;}
+
+
+
+
+
+
+

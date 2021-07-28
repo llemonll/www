@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+/* 와이드 pc  */
+#wrap{position: unset;}
+#content{font-family: 'roboto';}
+#imgBG{display: block;}
+#imgBG{position:fixed; left:50%; top:50%;  width:auto; min-width:100%; height:auto; min-height:100%; 
+transform:translateX(-50%) translateY(-50%); z-index:-100; display:block;}
+
+#wrap h1{width: 200px; height: 58px; position: absolute; top:4%; left:3%; transform: unset; background-size: contain;}
+.h2hline{position: relative;} 
+.h2hline h2{font-family: 'Rum Raisin', sans-serif; font-size: 9em; font-weight: 600; position: absolute; top: 33%; left:50%;
+             transform: translateX(-50%);  letter-spacing: .2rem;  background: linear-gradient(to right bottom, #31cbb1, #fff);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;  }          
+#content h3{font-family: 'Rum Raisin', sans-serif; font-size: 5em; font-weight: 600; 
+             letter-spacing: .2rem;}
+#content img{ border-radius: 30px;}
+#content li{position: relative;}
+#content li:hover img{filter: brightness(.5);}
+#content a{display: block;}
+.gif{height: 300px; background: #fff; border-bottom: 20px solid #31cbb1;position: relative; }
+.ficon{display: block; background: url(../images/sub1/ficon.png) center no-repeat; position: absolute; left:0; width: 403px; height: 300px; 
+      background-size: contain; transition: 2.5s;}
+.con_inner{background: rgba(255, 255, 255, .8); padding-bottom: 200px; border:20px solid #31cbb1; border-top: 0; border-bottom: 0;}
+
+/* 메이킹 필름 */
+.making{text-align: center; background: #fff; padding:120px 0 80px 0}
+.making ul{margin-top: 120px; overflow: hidden; }
+.making ul li{border:10px;  float:left;  width: 46%; margin: 0 2%;}
+.making p{ font-family:'Rum Raisin';  font-size: 3.5em; word-spacing: 10px; letter-spacing: 5px; width: fit-content;
+             margin-left: 50%; transform: translateX(-50%); margin-bottom: 50px; padding: 0 10px;}    
+.making ul li img{width: 100%;}
+.making .btn{content:''; display: block; background: url(../images/play.png) center center no-repeat;z-index: 1;
+                     width: 150px; height: 150px; background-size: cover;position: absolute; top:35%; left:50%; transform: translateX(-50%); }
+.making a{display: block;}
+.making ul li dl{padding: 0 8%;}
+.making ul li dt{font-size: 3em; padding-top: 40px; position: relative; line-height: 1.5em;}
+.making ul li dt::before{content: ''; display: block; width: 80%; height: 4px; background:rgba(0,148,191,.4) ;
+                         position: absolute; bottom:-52px; left:60px}
+.making ul li dd{font-size: 1.5em; padding-top: 80px;}
+
+
+/* 트레일러 */
+
+.tra{margin-top: 50px;text-align: center; }
+.tra h3{ margin:80px 0; }
+.tra ul{overflow: hidden;}
+.tra ul li{float:left; width: 22%; margin: 0 2%;}
+.tra ul li:nth-child(1){margin: 0 2% 0 3%;}
+.tra ul li:nth-child(2),.tra ul li:nth-child(3),.tra ul li:nth-child(4){margin-left: 0;}
+.tra ul li img{width: 100%; border-radius: 30px;}
+.tra ul li p{font-size: 2em; margin-bottom: 20px; }
+.pen{background: linear-gradient( to top, rgba(0,148,191,.4) 40%, transparent 40% );}
+.tra .btn{content:''; display: block; background: url(../images/play.png) center center no-repeat;z-index: 1;
+                     width: 100px; height: 100px; background-size: cover;position: absolute; top:45%; left:50%; transform: translateX(-50%); }
+.tra ul{padding: 80px 0; background: #fff;}
+
+
+#footerArea{margin-top:0}
+
+/* 테블릿 */
+
+@media screen and (max-width:1024px) {
+      
+#content{ width:auto; margin:0; border:20px solid #31cbb1; border-top:0; border-bottom:0}
+#wrap h1{width: 262px; height: 80px; position: absolute; top:1%; left:30px; transform: unset;}
+.gif{height: 215px; border-top:20px solid #31cbb1;}
+.ficon{width: 250px; height: 250px;}
+#content h3{font-family: 'Rum Raisin', sans-serif; font-size: 5em; font-weight: 600; 
+             letter-spacing: .2rem;}
+#content img{ border-radius: 30px;}
+#content li{position: relative;}
+.making .btn{top:34%;}
+#content li:hover img{filter: brightness(.5);}
+#content a{display: block;}
+.making ul li::before{top:32%;}
+.con_inner{border:0}
+/* 메이킹 필름 */
+.making{text-align: center; background: #fff;}
+.making ul{margin-top: 0; overflow: hidden; padding-top: 80px; }
+.making ul li{border:10px;  float:left;  width: 46%; margin: 0 2%;transition: .5s;}
+.making p{ font-family:'Rum Raisin';  font-size: 2.4em; word-spacing: 3px; letter-spacing: 3px; width: fit-content;
+             margin-left: 50%; transform: translateX(-50%); margin-bottom: 50px; padding: 0 10px;}    
+.making ul li dl{padding: 0 8%;}
+.making ul li dt{font-size: 2em; padding-top: 40px; position: relative;}
+.making ul li dt::before{content: ''; display: block; width: 80%; height: 4px; background:rgba(0,148,191,.4) ;
+                         position: absolute; bottom:-40px; left:45px}
+.making ul li dd{font-size: 1.3em; padding-top:65px;}
+
+
+/* 트레일러 */
+
+.tra{margin-top: 50px;text-align: center; }
+.tra h3{ margin:80px 0; }
+.tra ul li{float:left; width: 48%; }
+.tra ul li img{width: 100%; border-radius: 30px;}
+.tra ul li p{font-size: 2em; margin-bottom: 20px; }
+.pen{background: linear-gradient( to top, rgba(0,148,191,.4) 40%, transparent 40% );}
+.tra .btn{content:''; display: block; background: url(../images/play.png) center center no-repeat;z-index: 1;
+                     width: 100px; height: 100px; background-size: cover;position: absolute; top:45%; left:50%; transform: translateX(-50%); }
+.tra ul{padding: 80px 0; background: #fff;}
+.tra ul li:nth-child(1),.tra ul li:nth-child(2){margin: 0 1%;}
+.tra ul li:nth-child(3),.tra ul li:nth-child(4){margin: 0 1%; margin-top: 70px;}
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {  
+#content{ width:auto; margin:0;border-bottom: 0;}   
+.gif{height: 121px;}
+.ficon{width: 155px; height: 250px; left:74%; top:-61px}    
+.h2hline h2{font-size: 6em;}
+.hambox .logo1{height: 86px;}
+.mainMenu{margin-top: 76px;}
+#content h3{font-family: 'Rum Raisin', sans-serif; font-size: 4em; font-weight: 600; 
+             letter-spacing: .2rem;}
+.making ul{margin-top: 50px; padding-top: 0;}
+#content img{ border-radius: 30px;}
+#content li{position: relative;}
+#content li:hover img{filter: brightness(.5);}
+#content a{display: block;}
+.making ul li::before{top:32%;}
+
+/* 메이킹 필름 */
+.making{text-align: center; background: #fff; padding: 50px 0;}
+.making ul{margin-top: 50px; overflow: hidden; }
+.making ul li{ width: 96%; margin: 0 2%;}
+.making p{ font-size: 2.4em; margin-bottom: 50px; padding: 0 10px;}    
+.making ul li dt{font-size: 1.19em; padding-top:28px;}
+.making ul li dt::before{content: ''; display: block; width: 80%; height: 4px; background:rgba(0,148,191,.4) ;
+                         position: absolute; bottom:-16px; left:40px}
+.making ul li dd{font-size: 1em; padding-top: 26px;}
+.making ul li:nth-child(2){margin-top: 77px;}
+.making .btn{width: 70px; height: 70px; top:38%;}
+
+/* 트레일러 */
+
+.tra h3{ margin:80px 0; }
+.tra ul{overflow: hidden;}
+.tra ul li{float:left; width: 96%; margin: 0 1% 70px 1%;}
+.tra ul li img{width: 100%; border-radius: 30px;}
+.tra ul li p{font-size: 1.5em; margin-bottom: 20px; }
+.pen{background: linear-gradient( to top, rgba(0,148,191,.4) 40%, transparent 40% );}
+.tra ul{padding: 80px 0; background: #fff;}
+.tra ul li:nth-child(1),.tra ul li:nth-child(2){margin-bottom: 70px;}
+.tra .btn{width: 70px; height: 70px; top:46%;}
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+.h2hline h2{font-size: 5em;}      
+#content{border-left:5px solid #31cbb1;border-right:5px solid #31cbb1;}
+.videoBox{border:5px solid #31cbb1; border-bottom: 0;}      
+.gif{height: 100px; border-top:5px solid #31cbb1;  border-bottom:5px solid #31cbb1; }
+.ficon{width: 26%; height: 100%; top:5px}
+#content h3{font-size: 2em;}
+.making p{font-size: 1.1em;}
+.making ul li dd{font-size: 10px;}
+.making ul li dt::before{left: 25px;}
+.tra ul li p{font-size: 1.1em;}
+.tra ul li:nth-child(3){margin-top: 0;}
+.tra ul li:nth-child(1),.tra ul li:nth-child(2){margin: 0 1.5%; margin-bottom:70px; }
+.tra ul li:nth-child(3),.tra ul li:nth-child(4){margin: 0 1.5%; margin-bottom:70px; }     
+      
+}

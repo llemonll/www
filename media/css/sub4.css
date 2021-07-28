@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+/* 와이드 pc */
+#wrap{position: unset;}
+#content{font-family: 'roboto';}
+#imgBG{display: block;}
+#imgBG{position:fixed; left:50%; top:50%;  width:auto; min-width:100%; height:auto; min-height:100%; 
+transform:translateX(-50%) translateY(-50%); z-index:-100; display:block;}
+
+#wrap h1{width: 200px; height: 58px; position: absolute; top:4%; left:3%; transform: unset; background-size: contain;}
+.h2hline{position: relative;} 
+.h2hline h2{font-family: 'Rum Raisin', sans-serif; font-size: 9em; font-weight: 600; position: absolute; top: 33%; left:50%;
+             transform: translateX(-50%);  letter-spacing: .2rem;  background: linear-gradient(to right bottom, #31cbb1, #fff);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#content h3{font-family: 'Rum Raisin', sans-serif; font-size: 3em; font-weight: 600; 
+    letter-spacing: .2rem;} 
+.gallery{background: #fff;}
+.gallery img{border-radius: 20px; border: 7px solid #31cbb1;  box-sizing: border-box;}
+.grid-image-item:nth-child(3) img{border-color:#c44034; box-sizing: border-box;}
+.gallery .inner{overflow: hidden; padding:0 2%;}
+#footerArea{margin-top: 0;}
+.con_inner{padding-bottom: 200px; background: rgba(255, 255, 255, .6);}
+.con_inner{border:20px solid #31cbb1; border-bottom: 0;border-top:0}
+.gallery{border-bottom: 20px solid #31cbb1; }
+.con p span{}
+
+.grid{margin: 120px 0 0;}
+.grid-image-item,.grid--images .grid-sizer {width: 25%;}
+.grid-image-item {float: left;  margin-bottom: 50px}
+.grid-image-item img{display: block; width: 94%; margin: 0 auto 20px;}
+.grid-image-item h3{ display: block; width: 90%;text-align: left;margin: 0 auto 10px;font-size: 1.875em;font-family: 'Roboto', sans-serif;}
+.grid-image-item ul{width: 90%;margin: 0 auto ;overflow: hidden;}
+.grid-image-item ul li{ border-radius: 5px;font-size: 16px;float: left;margin-right: 10px;margin-bottom:5px;background: #31cbb1;
+                    color: #fff;padding: 3px 10px;text-transform: capitalize;transition: .3s}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px){
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px){
+    #content{ width:auto; margin:0; border:20px solid #31cbb1; border-top:0; border-bottom:0}
+    #wrap h1{width: 262px; height: 80px; position: absolute; top:1%; left:30px; transform: unset;}
+    #content h3{font-family: 'Rum Raisin', sans-serif; font-size: 2em; font-weight: 600; 
+             letter-spacing: .2rem;}
+    .grid{margin: 100px 0 0;}
+    .grid-image-item,.grid--images .grid-sizer{width: 33.33%;}
+    #content .gallery img{border-radius: 15px}
+    .con_inner{border:0; border-top:20px solid #31cbb1}
+}
+/* 소형 테블릿 */
+@media screen and (max-width:768px){
+
+    .grid-image-item,.grid--images .grid-sizer{width: 50%;}
+}
+/* 모바일 */
+@media screen and (max-width:640px){
+#content{ width:auto; margin:0;border-bottom: 0;}  
+.h2hline h2{font-size: 5em;}
+.hambox .logo1{height: 86px;}
+#content h3{font-family: 'Rum Raisin', sans-serif; font-size: 4em; font-weight: 600; 
+             letter-spacing: .2rem;}
+.mainMenu{margin-top: 76px;}
+.grid-image-item,.grid—images .grid-sizer{width: 100%;}
+#footerArea .top_move{top:-45px;}
+}
+/* 소형 모바일 */
+@media screen and (max-width:480px){
+.con_inner{border:0;}
+.h2hline h2{font-size: 5em;}      
+#content{border-left:5px solid #31cbb1;border-right:5px solid #31cbb1;}
+.videoBox{border:5px solid #31cbb1; border-bottom: 0;}      
+#content h3{font-size: 2em;}
+.gallery{border:5px solid #31cbb1; border-left:0; border-right:0}
+}

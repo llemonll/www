@@ -1,0 +1,20 @@
+
+.slogan h2{width:100%; position: absolute; top:112px; left: 0; font-size: 2em; color:#fff; text-align: center;font-weight: 600;}
+/*메인 비주얼*/
+
+.main img{width: 100%;}
+
+/* 본문 컨텐츠 */
+
+
+.slogan{text-align: center; margin-bottom: 50px;}
+.slogan p{line-height: 2em; padding: 0 5%; font-size: 1.3em;}
+.slogan span{color:#0065b3; font-weight: 600;}
+.slogan span.color{color:#fa7c01; font-weight: 600;}
+
+.pro img{width: 100%;}
+.con .pro{ overflow: hidden; margin-bottom: 80px; position: relative; }
+.con .pro dt{font-size: 1.3em; padding: 30px 0; text-align: left; color:#fa7c01}
+.pro dt::after{content: ''; display: block;  height: 1px; background:#fa7c01; margin-top: 15px; animation:line 6s ease infinite;}
+@keyframes line {0%, 30%{ width:0;} 70%, 100%{ width:30%;}}
+.con .pro dd{ text-align: justify; line-height: 1.7em;}

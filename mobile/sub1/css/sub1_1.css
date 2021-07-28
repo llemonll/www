@@ -1,0 +1,75 @@
+.con h2{width:100%; position: absolute; top:112px; left: 0; font-size: 2em; color:#fff; text-align: center; font-weight: 600;}
+/* sticky */
+
+
+.slide_menu{ position: relative;}
+.slide_menu ul{width: 80%; margin: 0 10%; border: 1px solid#0065b3; box-sizing: border-box;overflow: hidden;}
+.slide_menu li{float:left; width: 33.33%; box-sizing: border-box; border: 1px solid#fff; background: #0065b3;}
+.slide_menu li a{color:#fff; display: block; padding: 10px 0; text-align: center;border: 1px solid#0065b3;}
+.slide_menu .current1{background: #fff; color:#0065b3; }
+
+.slide_menu.navOn{position: fixed; width: 100%; top: 0; left: 0;background: #0065b3; z-index: 100;}
+.slide_menu.navOn ul{width: 100%; margin:0 auto; }
+.slide_menu.navOn li{width: 33.33%; left:0;}
+.slide_menu.navOn a{color: #fff; padding: 14px 0 15px 0; background: #0065b3;}
+.slide_menu.navOn .spy{background: #fff; color: #0065b3;}
+
+
+/* 개요 콘텐츠 */
+
+.con_slogan{text-align: center; margin: 30% 0 15%;}
+.con_slogan h3{font-size: 2em; font-weight: bold; margin-bottom: 10%;}
+.con_slogan p{font-size: 1.5em; line-height: 2em;}
+.con_slogan span{color:#0065b3; font-weight: 600;}
+.con_slogan span.color{color:#fa7c01}
+
+.con1_con{line-height: 1.7em; text-align: justify;  position: relative; font-size: 1.1em;}
+.con1_con img{width: 90%; margin: 0 5%;}
+.con1_con ul{margin-top: 20%;}
+.con1_con ul::before{content: ''; display: block; position: absolute; left:50%; width: 1px; height: 84%; background: #fa7c01;}
+.con1_con li::before{content: ''; display: block; position: absolute; left:49%;  margin-top: 95px; width: 10px; height: 10px; border-radius: 50%; background: #fa7c01;}
+.con1_con .con_text{margin-right: 50%; padding: 30px 5%;}
+.con1_con .con_text1{margin-left: 50%; padding: 30px 5%;}
+.con1_con .con_text2{margin-right: 50%; padding: 30px 5%;} 
+
+/* 연혁 */
+
+.his_box{position: relative; width: 300%; overflow: hidden;}
+.con2_tab{width: 90%; margin: 0 5%; height: 43px;  border-bottom: 1px solid#ccc;}
+.con2_tab li{float:left; width: 33.33%; text-align: center;}
+.con2_tab li a{display: block; width: 100%; height: 29px; padding-top:15px; transition: all .5s;}
+.con2_tab li.current a{color:#fff; background: #0065b3;}
+.con2_con img{width: 90%; margin: 0 5%;}
+
+.con2_history{float:left; width: 33.33%; position: relative; overflow: hidden; margin-top: 100px;  }
+.con2_history .history_top{position: relative; margin: 0 auto; height:200px; width: 90%; margin: 0 5%; }
+.con2_history .history_top::after{content: ''; display: block; position: absolute; top: 50px; z-index: 2; width:100%; height: 1px; background: #0065b3;}
+.con2_history .history_top li{float: left; position: relative; width:25%; height:100%; text-align: center;}
+.con2_history .history_top a{width: 100%; position: absolute; top:43px; left:0; }
+.con2_history .history_top a::before{content:""; display: inline-block; z-index: 10; background: #0065b3; width: 10px; height: 10px; border-radius: 50%;}
+.con2_history .history_top .year_t a p{ width:100%;}
+.con2_history .history_top .year_t a p.year{position: absolute; top:40px; font-weight:bold;}
+.con2_history .history_top .year_t a p.desc{position: absolute; bottom:40px;}
+.con2_history .history_top .year_b a p{ width:100%;}
+.con2_history .history_top .year_b a p.year{position: absolute; bottom:40px; font-weight:bold;}
+.con2_history .history_top .year_b a p.desc{position: absolute; top:40px;}
+
+.con2_history .history_bot{position: relative; margin: 0 auto;  height:200px;  width: 90%; margin:0 5%;}
+.con2_history .history_bot::after{content: ''; display: block; position: absolute; top: 50px; z-index: 2; width:100%; height: 1px; background: #fa7c01;}
+.con2_history .history_bot li{float: left; position: relative; width: 25%; height:100%; text-align: center;}
+.con2_history .history_bot a{position: absolute; width: 100%;  top:43px;left:0;}
+.con2_history .history_bot a::before{content:""; display: inline-block;z-index: 10; background: #fa7c01; width: 10px; height: 10px; border-radius: 50%;}
+.con2_history .history_bot .year_t a p{width:100%}
+.con2_history .history_bot .year_t a p.year{position: absolute; top:40px; font-weight:bold;}
+.con2_history .history_bot .year_t a p.desc{position: absolute; bottom:40px;}
+.con2_history .history_bot .year_b a p{width:100%}
+.con2_history .history_bot .year_b a p.year{position: absolute; bottom:40px; font-weight:bold;}
+.con2_history .history_bot .year_b a p.desc{position: absolute; top:40px; }
+
+/* 인사말 */
+.con3_con img{width: 90%; margin: 0 5% 20% 5%;}
+.con3_con{ margin: 0 5% 10%;}
+.con3_con p{font-size: 1.1em;text-align: justify; line-height: 1.8em;  margin: 0 5% 30px 5%;}
+.con3_con p:nth-child(1){margin-top: 30px;}
+.con3_con span{color:#0065b3; font-weight: bold;}
+.con3_con span.color{color:#fa7c01; font-weight: bold;}

@@ -1,0 +1,28 @@
+.con{margin-top: 200px;}
+.con div{ position: relative; top:0; opacity: 0; transition: all 2s;}
+.con div.boxMove{ opacity: 1;}
+.con .pro1{width: 100%; height: 350px; overflow: hidden; position: relative; margin-bottom: 100px;}
+.con .pro1 img{width: 50%; float: left; height: 399px;}
+.con .pro1 .h_line {z-index:1; position:absolute; top:190px; left:600px; display:block; height:1px; background-color:#0065b3; animation:hLine 6s ease infinite;}
+@keyframes hLine {0%, 30%{ width:0;} 70%, 100%{ width:50%;}}
+.con .pro1 dl{width: 50%; float:right; font-family: '나눔고딕';height: 399px;position:relative;}
+.con .pro1 dt{font-size: 40px; padding: 100px 0 50px 0; text-align: right; color:#fa7c01}   
+.con .pro1 dd{padding: 40px 0 0 30px; text-align: justify; line-height: 1.7em;}
+
+.con .pro2{width: 100%; height: 350px; overflow: hidden; position: relative;margin-bottom: 100px;}
+.con .pro2 img{width: 50%; float: right; height: 399px;}
+.con .pro2 .h_line {z-index:1; position:absolute; top:190px; right:600px; display:block; height:1px; background-color:#0065b3; animation:hLine 6s ease infinite;}
+@keyframes hLine {0%, 30%{ width:0;} 70%, 100%{ width:50%;}}
+.con .pro2 dl{width: 50%; float:left; font-family: '나눔고딕'; height: 399px;}
+.con .pro2 dt{font-size: 40px; padding: 100px 0 50px 0; text-align: left; color:#fa7c01}
+.con .pro2 dd{padding: 45px 30px 0 0; text-align: justify; line-height: 1.7em;}
+.con .pro1 .pro1_tit{padding-left: 320px;}
+
+
+.con .pro2_last{width: 100%; height: 350px; overflow: hidden; margin-bottom: 200px; position: relative;}
+.con .pro2_last img{width: 50%; float: right; height: 399px;}
+.con .pro2_last .h_line {z-index:1; position:absolute; top:190px; right:600px; display:block; height:1px; background-color:#0065b3; animation:hLine 6s ease infinite;}
+@keyframes hLine {0%, 30%{ width:0;} 70%, 100%{ width:50%;}}
+.con .pro2_last dl{width: 50%; float:left; font-family: '나눔고딕'; height: 399px;}
+.con .pro2_last dt{font-size: 40px; padding: 100px 0 50px 0; text-align: left; color:#fa7c01}
+.con .pro2_last dd{padding: 40px 30px 0 0; text-align: justify; line-height: 1.7em;}

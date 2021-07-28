@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+
+/* 헤드라인 폰트 연결 */
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; font-weight:700*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; font-weight:700 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Myeongjo', serif; font-weight:700 */
+
+/*스킵네비게이션*/
+#skipNav{position:relative;width:100%;overflow:hidden;z-index: 10;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+          overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     display:block;height:auto;padding:10px 0; background:#fefefe;}
+
+/* 헤더공통영역 */
+.wrap{width: 100%; overflow: hidden; font-family: '나눔고딕' , 'roboto';}
+
+#headerArea{position:fixed; width: 100%; z-index: 50; background: #fff; overflow: hidden;
+            border-bottom:1px solid#ccc; box-shadow: 0 0 10px #999;  height: 180px; transition: all  ease;}
+#headerArea::before{content: ''; display: block; width: 100%; height: 39px; background:#0065b3; position: absolute; 
+                    left: 0; top:0;}            
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .top_menu{overflow: hidden;}
+#headerArea .top_menu a{color:#fff;}
+#headerArea .top_menu ul{overflow:hidden; float:right; margin-top: 10px;}
+#headerArea .top_menu li{float:left; margin-right: 35px; position: relative; color:#fff;}
+#headerArea .top_menu li.last{margin-right:0;}
+#headerArea .top_menu li a:hover{font-weight: 500;}
+#headerArea h1{margin-top: 15px;}
+#headerArea h1 a{display: block; height: 60px;  background: url(../images/logo.svg) center no-repeat;
+                text-indent: -999px; overflow: hidden;}
+
+/* gnb 공통영역 */ 
+
+
+#headerArea #gnb .dropdownmenu{font-size:22px; font-weight: 600; }
+#headerArea #gnb .dropdownmenu .menu{float: left; text-align: center; position: relative; width: 16.66%;  padding: 20px 0;}
+#headerArea #gnb .dropdownmenu .menu a{text-align: center; display: block; }
+#headerArea #gnb .dropdownmenu .menu ul{position: absolute; left: 0; top: 57px; font-weight: 400; display: none; margin: 0 auto; width: 100%; height: 210px; }
+#headerArea #gnb .dropdownmenu .menu ul li a{ padding-top: 20px; transition: all .4s; font-size:18px; width:200px;}
+
+
+/* 푸터공통영역 */
+#footerArea{height: 220px; background: #222; clear: both;}
+.footer_inner{width: 1200px; margin: 0 auto;}
+
+
+.footer_left{overflow: hidden; font-size: 1em; color:#fff; float:left; width: 950px;}
+.footer_menu{width: 950px; margin: 20px 0 30px 0;  overflow: hidden; float:left}
+.footer_menu a{color:#fff; font-weight: bold;}
+.footer_menu li{float:left; margin-right: 20px; position: relative;}
+.footer_menu li::after{content: ''; display: block; width: 1px; height: 15px; background: #fff;
+                                   position: absolute; left:-10px; bottom:2px} 
+.copyright{width:950px; float:left;;}
+.copyright address{line-height: 2.3em; margin:10px 0 35px 0;}
+.copyright p{margin-bottom: 10px;}   
+
+.footer_right{width: 170px; overflow: hidden;}
+.footer_right a{color:#fff;  display: block;}
+
+.familysite{position: absolute;  background: #222; }
+.familysite .arrow{display: block; padding: 5px 5px 0 15px; border: 1px solid#fff; width: 120px; height: 25px;} 
+.familysite .arrow span{text-align: left;}                     
+.familysite .arrow i{margin-left: 15px;}
+.familysite .arrow:hover{background: #666;}
+.familysite .family_list{position: absolute; top:31px; left:0; border:1px solid #ccc; width: 140px; display: none;}
+.familysite .family_list li{border-bottom:1px solid#fff; position: relative; left:0; width: 120px; padding: 3px 10px;}
+.familysite .family_list li:hover{background: #666; }
+.familysite .family_list li a{display: block; padding: 3px 10px;}
+
+
+.sns{width: 132px; margin:10px 0 25px 0}
+.sns ul{overflow: hidden;}
+.sns li{margin: 0 20px 0 2px; margin-top: 10px; float:left;}
+.sns .sns_last{margin-right: 0;}
+
+
+/* 상단 이동 버튼 */
+
+.topMove {display:block; width: 50px; height: 50px; border: 1px solid#ccc; border-radius: 30px; position: fixed;
+          left: 50%; margin-left:700px; bottom: 250px; }
+
+.topMove i { color: #666; display: block; font-size: 2em; text-align: center; line-height: 50px; }
+
+
+
+

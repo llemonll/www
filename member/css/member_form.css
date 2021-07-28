@@ -1,0 +1,28 @@
+#content{width: 1000px; margin: 0 auto; margin-top: 30px; font-family: '나눔고딕';}
+
+.Dsmelogo{display: block; background: url(../images/logo.svg) center no-repeat; width: 200px; height: 70px; 
+        position: relative; left:50%; transform: translateX(-50%);}
+#content p{text-align: center; position: relative; font-size: 16px; margin-top: 50px;}
+#content p::before{content: ''; display: block; width: 10px; height: 10px; border-radius: 3px; position: absolute;
+                    top:4px; left:367px; background: #0065b3;}
+th,td{border: 0; padding: 15px}
+td{font-size: 16px; padding: 15px 30px 15px 10px;}
+tr:nth-child(1) td{padding-top: 40px; font-size: 20px; }
+.mo{text-indent: 43px;}
+input, select{padding: 5px;  font-size: 16px; outline: 0; }
+table{margin: 0 auto; margin-top: 17px; border:1px solid #ccc;}
+table tr:last-child td{text-align: center; padding: 20px 0; border:0}
+input{color:none}
+.hp{width: 120px; border:0; border-bottom:1px solid #ccc; margin-right: 15px; text-align: center;}
+#hp2,#hp3{width: 75px;}
+#hp1{width: 82px; border:0; border-bottom:1px solid #ccc; padding:  5px 0 5px 13px; margin-left: 40px;}
+#id,#pass,#pass_confirm,#name,#nick,#email1,#email2{border:0; border-bottom:1px solid #ccc; width: 300px; margin-left: 40px; font-size: 16px;}
+#email1{width: 130px; margin-left: 40px; margin-right: 5px;}
+#email2{width: 133px; margin-left: 5px;}
+#loadtext, #loadtext2{margin-top: 7px}
+#content h2{ text-indent: -9999px;}
+.cancel{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer}
+.ok{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #2179c4; color: #fff;font-size: 14px;cursor: pointer}
+.btn a{margin: 20px 0;}
+span{display: block; font-size: 14px; margin-left: 23px;}
+.loadtext,.loadtext2{text-indent: 43px;}

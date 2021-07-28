@@ -1,0 +1,29 @@
+
+
+#content .content_area #map{width: 1200px; height: 600px;}
+
+
+#content .content_area .name{width: 100%; height: 140px; background:rgba(0, 101, 179); color:#fff; font-weight: bold;
+                            font-size:20px; padding-top: 40px; font-family: 'roboto'; position: relative;} 
+#content .content_area .name img{position: absolute; top:14px; right: 100px;}                                                   
+#content .content_area .name strong{font-size: 35px; font-family: '나눔고딕'; margin: 0 30px 25px 30px;}
+
+#content .content_area .name .add{font-size: 20px; font-family: '나눔고딕'; }
+#content .content_area .name .add dl:nth-child(1) dt{content: ''; display:inline-block; background: url(../images/content4/add.png) 2px -19px no-repeat;}
+#content .content_area .name .add dl:nth-child(2) dt{content: ''; display:inline-block; background: url(../images/content4/tel.png) -5px -15px no-repeat;}
+
+#content .content_area .name .add dl{display: block; margin: 35px 0 0 20px; float:left;}
+#content .content_area .name .add dl dt{float:left; width: 60px; padding-left: 40px; height: 40px;}
+#content .content_area .name .add dl dd{float: left;}
+
+#content .content_area .way h3{font-size: 35px; text-align: center; margin: 150px 0;}
+
+#content .content_area .way table{width: 100%; margin: 40px 0 ; text-align: center; border:1px solid#ccc;}
+#content .content_area .way table img{width: 22px; height: 22px; padding-right: 20px;}
+#content .content_area .way th{width: 200px; border:1px solid#ccc; font-size:20px}
+
+#content .content_area .way th.way1{background:rgba(204, 204, 204, .2); font-weight: unset; font-size:16px;}
+
+#content .content_area .way td{border:1px solid#ccc; text-align: left; padding-left: 40px; height: 100px;}
+#content .content_area .way .last{margin-bottom: 150px;}
+

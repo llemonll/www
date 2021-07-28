@@ -1,0 +1,35 @@
+#content h2{width:100%; position: absolute; top:112px; left: 0; font-size: 2em; color:#fff; text-align: center;font-weight: 600;}
+
+#content .title_area{margin-top: 80px;}
+#content .title_area p{ text-align: center;font-size: 1.3em; line-height: 2em;}
+#content .title_area p span{color:#0065b3; font-weight: 600;}
+#content .title_area p span.color{color:#fa7c01; font-weight: 600;}
+
+#map{width: 90%; margin: 10% 5%; height: 300px; border: 1px solid #222;}
+
+
+.name{width: 100%; background:rgba(0, 101, 179); color:#fff; font-weight: bold;
+                            padding-top: 20px; font-family: 'roboto'; position: relative;} 
+.name img{position: absolute; top:14px; right:7%; width: 15%; }                                                   
+.kor{ padding-top:5px; margin-bottom: 10px; font-size:1.2em; float: left; margin-left: 15px;}
+.eng{font-weight: 100; display: block; margin-left: 30%;}
+
+#content .content_area .name .add{padding:16px 0}
+#content .content_area .name .add dl:nth-child(1) dt{content: '';  background: url(../images/content3/add.png) -3px -11px no-repeat; background-size: contain; height: 40px; position: absolute;}
+#content .content_area .name .add dl:nth-child(2) dt{content: '';  background: url(../images/content3/tel.png) -11px -6px  no-repeat; background-size: contain; height: 40px; position: absolute;}
+
+#content .content_area .name .add dl{width: 90%; margin: 1% 5% 0 5% ; overflow: hidden;}
+#content .content_area .name .add dl dt{float:left; width: 10%; padding: 6px 0 0 34px; }
+#content .content_area .name .add dl dd{padding-top: 6px; margin-left: 89px;}
+#content .content_area .way{width: 90%; margin: 0 5%;}
+#content .content_area .way h3{text-align: center; margin:80px 0; font-size: 1.3em; position: relative;}
+.way h3::before{content: ''; display: block; width: 36%; height: 1px; background: #0065b3; position: absolute; top:12px; left: -15%;}
+.way h3::after{content: ''; display: block; width: 15px; height: 15px; border-radius: 3px; background: #0065b3; position: absolute; top:5px; left: 20%; transform: rotate(45deg);}
+#content .content_area .way table{ margin-top: 40px ; text-align: center; border:1px solid#ccc;/* border-collapse: collapse;*/}
+#content .content_area .way table img{width: 30%;}
+#content .content_area .way th{width: 23%; border:1px solid#ccc; color:#666; font-size:18px}
+
+#content .content_area .way th.way1{background:rgba(204, 204, 204, .2); font-weight: unset; }
+
+#content .content_area .way td{border:1px solid#ccc; text-align: left; padding: 0 2%; height: 100px; line-height: 2em; color:#666;}
+#content .content_area .way .last{margin-bottom: 150px;}

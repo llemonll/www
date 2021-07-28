@@ -1,0 +1,64 @@
+/* 경영철학 내용 영역*/
+
+.content_area{width:1200px; margin: 0 auto; overflow: hidden;}
+
+
+.content_area::before{content: ''; display: block; position: absolute; left:50%; top:830px;
+                                        width: 3px; height: 120px; background: #0065b3;}
+
+                                                                    
+.content_area .slogan h3{margin: 150px 0 100px 0; font-size: 40px; font-family: '나눔고딕'; text-align: center;}
+.content_area .slogan p{font-size: 24px; font-family: '나눔명조'; text-align: center; margin-bottom: 150px; line-height: 2em;}
+.content_area .slogan p span{color:#0065b3;}
+.content_area .slogan p span.color{color:#fa7c01;}
+
+
+.content_area .passion{font-family: '나눔고딕'; float:left; position: relative; margin-bottom: 200px;}
+
+.content_area .passion h4{display:inline-block; font-size: 35px; color:red; height: 42px; padding: 8px 0; margin: 155px 0 200px 20px; width: 300px;}
+.content_area .passion h4::before{content: ''; display: block; position: absolute; left:1px; top:560px; width: 5px; height: 50px; background: red;}
+
+.content_area .passion span{font-size: 35px; font-family: 'roboto'; margin-left: 50px;}
+.content_area .passion p{float:right; width: 680px; height: 50px; padding-left:200px; font-size:18px; text-align: justify; margin: 152px 0 200px 0;
+                                    line-height: 2em;}
+
+
+.content_area .passion dl{float:left; text-align: center; position: relative; width: 200px; margin-right: 133px;}
+.content_area .passion dl::after{content: ''; display: block; position: absolute; top: 99px; right:200px; width:70px; height: 2px; background: red;}
+.content_area .passion .last{margin-right:0;}
+
+.content_area .passion dt{width: 198px; height: 68px; padding-top:30px; border: 1px solid red; background: red; border-radius: 20px 20px 0 0;
+                                   font-size: 25px; color:#fff; font-weight: 600;}
+.content_area .passion dt::after{content: ''; display: block; position: absolute; top:95px; right:260px; width: 10px; height: 10px; border-radius: 50px; background: red;}                        
+.content_area .passion dd{width: 198px; height: 92px; padding-top:38px; border: 1px solid red; border-radius: 0 0 20px 20px; line-height: 2em;
+                                    position: absolute; top:70px; transition: all .5s; }
+.content_area .passion dd:hover{background: #fff; border: 1px solid red; border-radius: 0 0 20px 20px; height: 110px; 
+    position: absolute; top:30px;font-weight: 600; padding-top:60px; transition: all .5s; }
+
+
+
+.content_area .trust{font-family: '나눔고딕'; float: left; position: relative; margin-bottom: 200px;}
+
+
+.content_area .trust h4{display:inline-block; font-size: 35px; color:#0065b3; height: 50px; margin: 155px 0 200px 20px; width: 300px;}
+.content_area .trust h4::before{content: ''; display: block; position: absolute; left:1px; top:554px;  width: 5px; height: 50px; background: #0065b3;}
+
+.content_area .trust span{font-size: 35px; font-family: 'roboto'; margin-left: 70px;}
+.content_area .trust p{float:right; width: 680px; height: 50px; padding-left:200px; font-size:18px; text-align: justify; margin: 152px 0 200px 0; line-height: 2em;}
+
+
+
+.content_area .trust dl{float:left; text-align: center; position: relative; width: 200px; height: 201px ;margin-right: 133px;}
+.content_area .trust dl::after{content: ''; display: block; position: absolute; top: 99px; left:200px; width:70px; height: 2px;
+                                         background: #0065b3;}
+
+.content_area .trust dt{width: 198px; height: 68px; padding-top:30px;  border: 1px solid #0065b3; background: #0065b3; 
+                                border-radius: 20px 20px 0 0; font-size: 25px; color:#fff; font-weight: 600;}
+.content_area .trust dt::after{content: ''; display: block; position: absolute; top:95px; left:260px; width: 10px; height: 10px; 
+                                        border-radius: 50px; background: #0065b3;}
+.content_area .trust dd{width: 198px; height: 92px; padding-top:38px; border: 1px solid #0065b3; border-radius: 0 0 20px 20px;
+                                 line-height: 2em; position: absolute; top: 70px; transition: all .5s; }
+.content_area .trust dd:hover{background: #fff; border: 1px solid #0065b3; border-radius: 0 0 20px 20px; height: 110px; 
+                                        position: absolute; top:30px;font-weight: 600; padding-top:60px;}
+.content_area .trust .last{margin-right: 0;}
+.content_area .trust .last::after{content: ''; display: none;}

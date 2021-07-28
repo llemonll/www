@@ -1,0 +1,13 @@
+*{box-sizing: unset; font-family: '나눔고딕';}
+
+.menu h3 a{font-weight: bold;}
+.mail_box{width: 1000px; margin:  0 auto;  padding: 20px;}
+#content h2{font-weight: bold;}
+
+.content_area{margin-bottom: 150px;}
+label{font-size: 24px; margin: 10px 10px 15px 40px; position: relative;}
+label::before{content: ''; display: block; width: 10px; height: 10px; transform: rotate(40deg); 
+            position: absolute; top:8px; left:-25px; background: #0065b3; border-radius: 2px;}
+.btn-group-lg>.btn{width: 250px; margin-left: 375px;}
+.btn-success{background: #368aff; border-color: #368aff;}
+.btn-success:hover{background: #0065b3; border-color: #0065b3;}

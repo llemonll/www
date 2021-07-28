@@ -1,0 +1,40 @@
+#content h2{width:100%; position: absolute; top:112px; left: 0; font-size: 2em; color:#fff; text-align: center;font-weight: 600;}
+
+/*메인 비주얼*/
+
+.main img{width: 100%;}
+
+
+
+.tab_menu{ position: relative;}
+.tab_menu ul{width: 80%; margin: 0 10%; border: 1px solid#0065b3; box-sizing: border-box;overflow: hidden;}
+.tab_menu li{float:left; width: 33.33%; box-sizing: border-box; border: 1px solid#fff; background: #0065b3;}
+.tab_menu li a{color:#fff; display: block; padding: 10px 0; text-align: center;border: 1px solid#0065b3;}
+.tab_menu li.current a{background: #fff; color:#0065b3;} 
+
+
+.title_area{margin: 80px 0;}
+
+.con{margin-bottom:80px; display: block;}
+
+.con_slogan{text-align: center; margin-bottom: 50px;}
+.con_slogan h3{font-size: 1.5em; font-weight: bold; margin-bottom: 50px;}
+.con_slogan p{line-height: 2em; font-size: 1.3em; padding: 0 5%;}
+.con_slogan span{color:#0065b3; font-weight: 600;}
+.con_slogan span.color{color:#fa7c01; font-weight: 600;}
+
+.icon_box{ margin: 2% 2% 22% 2%;background: linear-gradient(-45deg,#0065b3,rgba(0, 101, 179, .6)); border-radius: 20px;}
+.inner_top,.inner_bot{width:100%; overflow: hidden; padding-top: 2%;}
+.inner_img{width: 46%; margin: 2%;float:left;}
+.inner_img img{width: 50%; margin: 0 25%;}
+.inner_img p{text-align: center; margin-top: 10px; color:#fff;}
+
+
+.swiper-container {width: 96% ;margin: 0 2%; height: 420px; border-radius: 10px;}
+.swiper-slide {background-position: center; background-size: cover; }
+.swiper-slide img{width: 100%;}
+.swiper-slide dl{ background: rgba(0, 0, 0, .5); margin-top: 130px; overflow: hidden; padding: 0 2%;}
+.swiper-slide dt{font-size: 1.5em; text-align: center; color:#fff; padding: 20px 0; font-weight: 600; position: relative;}
+.swiper-slide dd{text-align: center; color:#fff; line-height: 2em; padding-bottom: 20px;}
+
+
