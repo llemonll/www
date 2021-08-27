@@ -1,0 +1,265 @@
+/* 헤드라인 폰트 연결 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;1,300&family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+/* waypoint에서 필요 소스 */
+
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s;}
+.wrap{width: 100%; overflow: hidden;}
+.container-fluid{padding: 0;}
+.hidden,#skipNav{position: absolute; display: block; width: 1px; height: 1px; left:-1000%; top:0; overflow: hidden; color:#fff;}
+.navbar-default{background: #76d3f9;}
+a:focus, a:hover{color:#222; text-decoration: none;}
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover{border:5px solid #cef1ff; border-radius: 30px;}
+h3{font-size: 40px;}
+a{color:#222}
+ol,ul{list-style: none;}
+body{font-family: 'Gowun Dodum',  sans-serif;  font-size: 16px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#76d3f9; background-color: #fff; ;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#76d3f9; background-color: #fff;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{width: 100px; height: 100px; font-size: 100px; margin-top: 15px;}
+
+
+
+/* 와이드 pc */
+
+.tit_name{margin:80px 0; text-align: center;}
+h3{font-size: 40px;}
+span{font-size: 30px;}
+
+/* 네비게이션 */
+
+.navbar-nav{float:right;}
+.navbar-brand{height: unset;}
+.navbar-nav h3{font-size: 20px; margin: 0; padding: 0;}
+.navbar-brand p{margin-left: 40px; font-weight: bold; font-size: 26px; color:#fff; margin: 0; margin-left: 50px; padding-top: 10%; width: unset;}
+.navbar-brand::before{content: ''; display: block; background: url(../images/logo.png) center no-repeat; width: 40px; height: 40px; background-size: contain; float:left; margin-top: 2px;}
+.navbar-default .navbar-nav>li>a{color:#fff; font-size: 18px; font-weight: bold;}
+.item img{margin: 0 auto;}
+.navbar-default .navbar-toggle .icon-bar{margin: 4px 0;}
+.con_1,.con_2,.con2_top,.con2_bot,.con_3,.con_4,.imgbox{overflow: hidden;}
+.navbar-default .navbar-nav>li>a{padding: 20px;}
+.navbar-brand{padding: 8px 0 0 0;}
+
+
+/* 비주얼 */
+
+.main_visual{margin-top: 63px;}
+.carousel-caption{top:40%}
+.carousel-caption dt{font-size: 60px;}
+.carousel-caption dd{font-size: 40px; margin-top: 40px;}
+
+
+/* food */
+
+
+
+
+#menu1{position: relative;}
+#menu1::before{content: ''; display: block; width: 20%; height: 100%; background: #ffd5d5; position: absolute; top:0; left:20%; z-index: -2;}
+#menu1::after{content: ''; display: block; width: 100%; height: 100%; background: url(../images/food_back.png) center no-repeat; position: absolute; top:0; z-index: -1;}
+#menu1 img{width: 100%;}
+#menu1 .container{width: 83%;}
+#menu1 .row>div:nth-of-type(2),#menu1 .row>div:nth-of-type(4){margin-top: 80px;}
+#menu1 .thumbnail{border:none; background-color: unset; border-radius: 30px; overflow: hidden;}
+#menu1 .thumbnail h4{font-weight: bold;}
+#menu1 .thumbnail h4,#menu1 .thumbnail p{text-align: center;}
+#menu1 .thumbnail>div{overflow: hidden; box-sizing: border-box; border:5px solid #ffd5d5; border-radius: 30px; padding: 0;}
+#menu1 .thumbnail img{border-radius: 30px;transition: all .5s;}
+#menu1 .thumbnail:hover img{transform: scale(1.1);}
+
+/* 놀이터 */
+#menu2{position: relative; padding-bottom: 80px;}
+#menu2::before{content: ''; display: block; width: 20%; height: 20%; background: #ffd5d5; position: absolute; top:0; left:20%; z-index: -1;}
+#menu2::after{content:''; display: block; width: 95%; height: 86%; background:url(../images/park_back.png) center no-repeat; position: absolute; top:14%; left:0; z-index: -1; border-radius: 0 60px 60px 0;}
+#menu2 img{padding: 0; border-radius: 25px 25px 0 0;}
+#menu2 .container{width: 83%; margin: 0 auto;}
+.con2_top span,.con2_bot span{display: block; text-align: center; margin: 30px 0; font-weight: bold;}
+.con2_top .thumbnail,.con2_bot .thumbnail{box-sizing:border-box; border:5px solid #cef1ff; padding: 0; padding: 0; border-radius: 30px;}
+.con2_top .thumbnail h4,.con2_bot .thumbnail h4{font-size: 1.5em; font-weight: bold; text-align: center; margin-top: 20px;}
+.con2_top .thumbnail p,.con2_bot .thumbnail p{text-align: center; font-size: 1.1em; margin-bottom: 25px;}
+.txt_1 ul{overflow: hidden;}
+.txt_1 ul li{margin-bottom: 10px; font-size: 1.1em;}
+
+
+/* 펫정보 */
+#menu3{ position: relative;}
+#menu3 .container{width: 100%; margin: 100px 0;}
+#menu3::before{content: ''; display: block; background: url(../images/info_back.png) center no-repeat; width: 100%; height: 100%; position: absolute; top:0}
+#menu3 img{border-radius: 40px; margin-top: 10%; width: 100%; border:5px solid#ffd5d5; }
+.tab-content dl{margin-top:20%;}
+.tab-content dt{font-size: 40px;}
+.tab-content dd{font-size: 20px; padding-top:50px;}
+.tab-content dd:nth-last-of-type(4){padding-top: 10px;}
+.container .nav{font-weight: bold; font-size: 20px; color:#555} 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{color:#fff;  border-radius: 5px; background:#ffd5d5;}
+.nav-tabs{border-bottom:3px solid #ffd5d5;}
+.nav>li>a:focus, .nav>li>a:hover{background-color:#ffd5d5;; color:#555}
+/* imgbox */
+
+.imgbox{width: 100%; height: 350px; position: relative; background: url(../images/v1.jpg) center no-repeat;
+    background-attachment: fixed;  z-index: 10; border:1px solid#fff;}
+.imgbox p{font-size: 60px; color:#fff; font-weight: bold; font-family: 'Playball', cursive; letter-spacing: 1px; text-align: center;}
+.imgbox p:nth-of-type(1){margin-top: 70px;}
+
+
+/* 펫호텔 */
+
+
+#menu4{position: relative;}
+#menu4::before{content: ''; display: block; width: 20%; height: 100%; background: #cef1ff; position: absolute; top:0; right:33%; z-index: -1;}
+#menu4{padding-bottom: 100px;}
+#menu4 .container{width: 83%; padding:0}
+#menu4 .container span{display: block;}
+#menu4 .thumbnail{border:none; border-radius: 30px; background-color: unset;}
+.ho_left img{width: 100%; margin: 0; border-radius: 30px; border:5px solid #cef1ff; box-sizing: border-box; }
+.ho_left h4{font-size: 40px; margin-top: 56px; font-weight: bold;}
+.ho_left dl{margin-bottom: 0; margin-top: 70px;}
+.ho_left .thumbnail{margin-bottom: 0;}
+.ho_left dt{font-size: 34px; margin-top: 30px;}
+.ho_left dd{margin-top: 14px; font-size: 22px; line-height: 1.7em;}
+.ho_right img{border-radius: 30px;border:3px solid #cef1ff; box-sizing: border-box; padding: 0;}
+.ho_right h4{margin-top: 8%; font-size: 1.7em;}
+.ho_right dl{margin:10px 0 0 0;}
+.ho_right dt{font-size: 1.4em;}
+.ho_right dd{margin-top: 20px; font-size: 19px; line-height: 1.7em;}
+.ho_right .thumbnail{padding: 0; margin-bottom: 34px; overflow: hidden;}
+
+
+/* 푸터 */
+
+#footerArea{background: #76d3f9; position: relative; }
+.foot_inner a{position: absolute; top:-100px; right:5%; width: 90px; height: 90px; background: url(../images/top.png) center no-repeat; background-size: cover;}
+.foot_inner a span{font-size: 18px; text-transform: uppercase; font-weight: bold; color:#fff; padding-top: 50px; position: absolute; left:30%}
+.foot_txt span{margin-bottom: 0; padding: 20px 0; color:#fff; font-size: 30px; display: block; text-align: center;}
+.foot_txt span:nth-child(1){padding-bottom: 0; padding-top: 30px;}
+.foot_txt span:nth-child(2){font-size: 18px; padding: 8px 0 40px;}
+
+
+/* 일반 pc  */
+
+@media screen and (max-width:1199px) {
+
+
+/* 놀이터*/
+.txt_1 ul{padding:0 15px; margin-bottom: 0;}
+.txt_1 ul li{font-size: 16px; text-align: center;}
+.con2_top .thumbnail p, .con2_bot .thumbnail p{padding: 0 25px;}
+
+/* 펫정보 */
+
+.tab-content img{width: 100%; margin: 10% 0;}
+.tab-content dl{margin: 21% 0 0 0;}
+.tab-content dt{font-size: 30px;}
+.tab-content dd{padding-top:20px; }
+.tab-content dd:nth-of-type(5),.tab-content dd:nth-of-type(6){display: none;}
+/* 펫호텔 */
+
+#menu4 .container{width: 90%;}
+.ho_left h4{margin-top: 20px;}
+.ho_left dl{margin-top: 10px;}
+.ho_left dt{font-size: 22px; margin-top: 17px;}
+.ho_left dd{font-size: 17px; margin-top: 20px;}
+.ho_right h4{margin-top: 4%; font-size: 1.4em;}
+.ho_right dl{margin-top: 5px; font-size: 16px; line-height: 1.7em; padding-right: 0;}
+.ho_right dt{font-size: 20px;}
+.ho_right dd{font-size: 15px; margin-top: 12px;}
+.ho_right img{padding: 0;}
+.ho_right .thumbnail{margin-bottom: 20px;}
+
+}
+
+/* 태블릿  */
+
+@media screen and (max-width:991px) {
+
+
+/* 비주얼 */
+
+.carousel-caption dt{font-size: 50px;}
+.carousel-caption dd{font-size: 40px; margin-top: 0;}
+
+/* 펫푸드 */
+
+#menu1::before{width: 100%; height: 60%; top:0; left:0;}
+#menu1::after{display: none;}
+
+
+/* 펫푸드 */
+#menu2::before{display: none;}
+#menu2::after{width: 100%; height: 100%; top:0;}
+
+
+/* 펫정보 */
+
+.tab-content dd{padding-top: 20px; font-size: 19px;}
+
+
+.imgbox{height: 300px;}
+
+
+
+
+
+/* 펫호텔 */
+.ho_right h4{font-size: 23px;;}
+.ho_right dt{font-size: 22px;}
+.ho_right dd{font-size: 18px;}
+#menu4::before{width: 100%; height: 40%; top:30%; right:0;}
+
+}
+
+
+
+/* 소형 태블릿  */
+
+@media screen and (max-width:767px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{padding: 0;}
+    .navbar-default .navbar-toggle{border:none;}
+    .navbar-toggle{margin-top: 20px;}
+    .navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+    .navbar-toggle .icon-bar{height: 4px; border-radius: 3px;}
+    .navbar-nav{float:none; margin: revert; text-align: center;}
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color:transparent;}
+    .navbar-brand{padding: 15px 0 0 30px;}
+    #menu1 .container{width: 100%;}    
+
+    /* 비주얼 */
+
+.carousel-caption dt{font-size: 40px;}
+.carousel-caption dd{font-size: 30px; margin-top: 10px;}
+
+/* 놀이터*/
+#menu2 img{width: 100%;}
+
+/* 펫정보 */
+.tab-content dl{margin-top: 30px;}
+.tab-content dt{font-size: 24px; padding-top:0;}
+.tab-content dd{font-size: 17px; padding-top: 20px;}
+.tab-content dd:nth-of-type(1),.tab-content dd:nth-of-type(4){display: none;}
+#menu3 .container{margin: 20px 0 80px;}
+#menu3 img{margin: 2% 0;}
+
+
+
+/* 이미지 박스 */
+
+.imgbox{height: 200px;}
+.imgbox p{font-size: 40px; margin-top:0;}
+.imgbox p:nth-of-type(1){margin-top: 40px;}
+
+/* 펫호텔 */
+
+
+.tit_name{margin: 80px 0 30px;}
+.ho_right h4{font-size: 26px; margin-top: 25%;}
+.ho_right dd{font-size: 20px; margin-top: 12px;}
+.ho_right h4{margin-top: 2%;}
+.ho_right .thumbnail{margin-bottom: 50px;}
+
+}

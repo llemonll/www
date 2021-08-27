@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이리오개</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    
+
+
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+    
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="50" id="topMove">
+    <div class="wrap">
+        <div id="skipNav">
+            <a href="#content">본문 바로가기</a>
+            <a href="#navbar-example">글로벌 네비게이션 바로가기</a>
+        </div>
+        
+        <div class="container-fluid">
+            <header id="header_Area">
+                <h1 class="hidden">이리오개</h1>
+                <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+                    <h2 class="hidden">글로벌 네비게이션영역</h2>
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse"
+                                data-target=".bs-example-js-navbar-scrollspy">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"> 
+                                <p>이리오개</p>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#menu1" onclick="$('#menu1').animatescroll();"><h3>펫푸드</h3></a></li>
+                                <li><a href="#menu2" onclick="$('#menu2').animatescroll();"><h3>놀이터</h3></a></li>
+                                <li><a href="#menu3" onclick="$('#menu3').animatescroll();"><h3>펫정보</h3></a></li>
+                                <li><a href="#menu4" onclick="$('#menu4').animatescroll();"><h3>펫호텔</h3></a></li>
+                              </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="main_visual">
+                <div id="carousel-example-generic" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                           <img src="images/v1_1.jpg" alt="First slide">
+                             <div class="carousel-caption">
+                                <dl>
+                                    <dt>Rooms for Your Lovely Dog</dt>
+                                    <dd>L'ESCAPE Hotel</dd>
+                                </dl>
+                             </div>  
+                        </div>
+                        <div class="item">
+                           <img src="images/v2_1.jpg" alt="Second slide"> 
+                             <div class="carousel-caption">
+                                 <dl>
+                                     <dt>전국 최대 규모의 테마파크</dt>
+                                     <dd>강아지 숲</dd>
+                                 </dl>
+                             </div>                                   
+                        </div>
+                        <div class="item">
+                           <img src="images/v3_1.jpg" alt="Third slide">                 
+                             <div class="carousel-caption">
+                                <dl>
+                                    <dt>오늘부터 행복하개♡</dt>
+                                    <dd>우리의 가족이 되어주세요</dd>
+                                </dl>
+                             </div>                     
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+            <article id="content">
+                <h2 class="hidden">본문 컨텐츠영역</h2>
+                <section id="menu1" class="con_1 wp1 delay-05s">
+                    <div class="container"> 
+                        <div class="tit_name">
+                            <h3>펫푸드</h3>
+                            <span>반려 동물과 함께 즐기는 맛있는 여행</span>
+                        </div>
+                        <div class="row">
+                            <div class="hidden-xs hidden-sm  col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <div>
+                                        <img src="images/food1.jpg" alt="...">
+                                    </div>
+                                    <h4>SHAKE SHACK BURGER</h4>
+                                    <p>우리 마음속엔 언제나 귀여운<br>
+                                        네 발 친구도 함께 합니다. 
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <div class="col-xs-12">
+                                        <img src="images/food2.jpg" alt="...">
+                                    </div>
+                                    <h4>STARBUCKS</h4>
+                                    <p>우리 마음속엔 언제나 귀여운<br>
+                                        네 발 친구도 함께 합니다. 
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <div>
+                                        <img src="images/food3.jpg" alt="...">
+                                    </div>
+                                    <h4>BURGERKING</h4>
+                                    <p>우리 마음속엔 언제나 귀여운<br>
+                                        네 발 친구도 함께 합니다. 
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="hidden-xs col-sm-4 col-md-3">
+                                <a href="#" class="thumbnail">
+                                    <div>
+                                        <img src="images/food4.jpg" alt="...">
+                                    </div>
+                                    <h4>HOEGAARDEN</h4>
+                                    <p>우리 마음속엔 언제나 귀여운<br>
+                                        네 발 친구도 함께 합니다. 
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="menu2" class="con_2 wp2 delay-05s">
+                    <div class="container">
+                        <div class="tit_name">
+                            <h3>놀이터</h3>
+                            <span>많은 견주님들이 찾은 놀이터를 만나보세요!</span>
+                        </div>
+                        <div class="con2_top row">
+                            <span class="tit col-xs"># 실내 운동장</span>  
+                            <div class="hidden-xs hidden-sm col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/park1.png" alt="어몽어덕">
+                                    <div class="caption">
+                                        <h4>어몽어덕</h4>
+                                        <p>경기도 용인시 처인구 백암면 근곡로107번지 29</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/park2.png" alt="개들의 정원">
+                                    <div class="caption">
+                                        <h4>개들의 정원</h4>
+                                        <p>경기도 이천시 설상면 설가로 219번길 176</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hidden-xs col-sm-6 col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/park3.png" alt="허브 타임">
+                                    <div class="caption">
+                                        <h4>허브 타임</h4>
+                                        <p>경기도 안산시 단원구 화정동 258-3</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>        
+                        </div>       
+                        <div class="con2_bot row">
+                            <span class=" col-xs"># 애견 수영장</span> 
+                            <div class="hidden-xs hidden-sm col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/pool1.png" alt="글램독">
+                                    <div class="caption">
+                                        <h4>글램독</h4>
+                                        <p>경상남도 통영 광도면 용호로 285-16</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/pool2.png" alt="댕댕월드">
+                                    <div class="caption">
+                                        <h4>댕댕월드</h4>
+                                        <p>부산시 남구 이기대공원로 57-73</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hidden-xs col-sm-6 col-md-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="images/pool3.png" alt="딩고">
+                                    <div class="caption">
+                                        <h4>딩고</h4>
+                                        <p>경기도 수원시 영통구 태장로 54번길 166</p>
+                                        <div class="txt_1 row">
+                                            <ul>
+                                                <li class="col-xs-6"># 노키즈 존</li>
+                                                <li class="col-xs-6"># 야외 운동장</li>
+                                                <li class="col-xs-6"># 다동견 할인</li>
+                                                <li class="col-xs-6"># 스튜디오</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="menu3" class="con_3 wp3 delay-05s">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="tit_name">
+                            <h3>펫정보</h3>
+                            <span>반려 동물 관련 다양한 정보를 한눈에 확인하세요</span>
+                        </div>
+                        <div class="container">
+                            <ul class="col-xs-10 col-xs-offset-1 nav nav-tabs">
+                                <li class="active"><a href="#tab1" data-toggle="tab">입양 정보</a></li>
+                                <li class="hidden-xs"><a href="#tab2" data-toggle="tab">산책 정보</a></li>
+                                <li><a href="#tab3" data-toggle="tab">보험 정보</a></li>
+                                <li class="hidden-xs"><a href="#tab4" data-toggle="tab">등록 정보</a></li>
+                            </ul>
+                            <div class="col-xs-10 col-xs-offset-1 tab-content">
+                                <div class="tab-pane fade in active row" id="tab1">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img src="images/info1.jpg" alt="입양 정보">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dl>
+                                            <dt>입양 정보</dt>
+                                            <dd>강아지숲 동산</dd>
+                                            <dd>여유로움이 묻어나는 너른 잔디마당입니다.</dd>
+                                            <dd>잔디내음이 강아지의 후각을 자극하여 기분 좋게 만들어줍니다.</dd>
+                                            <dd>햇살과 바람, 여유로움까지 누릴 수 있는 강아지숲 동산입니다.</dd>
+                                            <dd>• 산책줄을 반드시 착용해야하는 온리쉬 구역입니다.</dd>
+                                            <dd>• 도그 스포츠 등 다양한 행사가 진행됩니다.</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="hidden-xs tab-pane fade" id="tab2">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dl>
+                                            <dt>산책 정보</dt>
+                                            <dd>강아지숲 동산</dd>
+                                            <dd>여유로움이 묻어나는 너른 잔디마당입니다.</dd>
+                                            <dd>잔디내음이 강아지의 후각을 자극하여 기분 좋게 만들어줍니다.</dd>
+                                            <dd>햇살과 바람, 여유로움까지 누릴 수 있는 강아지숲 동산입니다.</dd>
+                                            <dd>• 산책줄을 반드시 착용해야하는 온리쉬 구역입니다.</dd>
+                                            <dd>• 도그 스포츠 등 다양한 행사가 진행됩니다.</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img src="images/info2.jpg" alt="산책 정보">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab3">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img src="images/info3.jpg" alt="보험 정보">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dl>
+                                            <dt>보험 정보</dt>
+                                            <dd>강아지숲 동산</dd>
+                                            <dd>여유로움이 묻어나는 너른 잔디마당입니다.</dd>
+                                            <dd>잔디내음이 강아지의 후각을 자극하여 기분 좋게 만들어줍니다.</dd>
+                                            <dd>햇살과 바람, 여유로움까지 누릴 수 있는 강아지숲 동산입니다.</dd>
+                                            <dd>• 산책줄을 반드시 착용해야하는 온리쉬 구역입니다.</dd>
+                                            <dd>• 도그 스포츠 등 다양한 행사가 진행됩니다.</dd>
+                                        </dl>    
+                                    </div>
+                                </div>
+                                <div class="hidden-xs  tab-pane fade" id="tab4">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dl>
+                                            <dt>등록 정보</dt>
+                                            <dd>강아지숲 동산</dd>
+                                            <dd>여유로움이 묻어나는 너른 잔디마당입니다.</dd>
+                                            <dd>잔디내음이 강아지의 후각을 자극하여 기분 좋게 만들어줍니다.</dd>
+                                            <dd>햇살과 바람, 여유로움까지 누릴 수 있는 강아지숲 동산입니다.</dd>
+                                            <dd>• 산책줄을 반드시 착용해야하는 온리쉬 구역입니다.</dd>
+                                            <dd>• 도그 스포츠 등 다양한 행사가 진행됩니다.</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <img src="images/info4.jpg" alt="등록정보">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="imgbox">
+                    <p>Dog's lives are too short.</p>
+                    <p>Their only fault, really</p>
+               </div>
+               <section id="menu4" class="con_4 wp4 delay-05s">
+                    <div class="col-md-12">
+                        <div class="container"> 
+                            <div class="tit_name">
+                                <h3>호텔</h3>
+                                <span>반려동물과 함께 호캉스를 즐겨보세요</span>
+                            </div>
+                            <div class="ho_left col-md-7">
+                                <div class="hidden-xs hidden-sm col-md-12 ">
+                                  <div class="thumbnail">
+                                    <div>
+                                        <img src="images/hotel1.jpg" alt="비스타 워커힐">
+                                    </div>
+                                    <h4>비스타 워커힐 서울</h4>
+                                    <dl>
+                                        <dt>Five Star hotel service to your pet </dt>
+                                        <dd>비스타 워커힐 서울의 '오! 마이 펫' 서비스 이용객을 위한 또 하나의 혜택! 펫의 여행을 즐겁게 해주는 장난감과 비스타 펜던트, 패드로 구성된 웰컴 키트가 기브어웨이로 제공됩니다.</dd>
+                                    </dl>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="ho_right col-xs-12 col-sm-12 col-md-5">     
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <div class="thumbnail">
+                                        <div>
+                                            <img src="images/hotel2.jpg" alt="그랜드 머큐어" class="hidden-xs col-sm-12 col-md-5">
+                                        </div>
+                                        <h4 class="hidden-xs col-sm-12 col-md-7">그랜드 머큐어 호텔</h4>
+                                        <dl class="hidden-xs col-sm-12 col-md-7">
+                                            <dt>Mong-Friendly</dt>
+                                            <dd>반려견 목걸이와 전용 식기,쿠션, 배변패드를 제공하고 있습니다</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <div class="thumbnail">
+                                        <div>
+                                            <img src="images/hotel3.jpg" alt="알로프트 서울" class="col-xs-12 col-sm-12 col-md-5">
+                                        </div>
+                                        <h4 class="col-xs-12 col-sm-12 col-md-7">알로프트 서울 강남</h4>
+                                        <dl class="col-xs-12 col-sm-12 col-md-7">
+                                            <dt>Mong-Friendly</dt>
+                                            <dd>20개 객실을 반려동물전용 침대와 식기, 장난감 등을 제공하고 있습니다</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <div class="thumbnail">
+                                        <div>
+                                            <img src="images/hotel4.jpg" alt="레스케이프" class="hidden-xs col-sm-12 col-md-5">
+                                        </div>
+                                        <h4 class="hidden-xs col-sm-12 col-md-7">레스케이프 호텔</h4>
+                                        <dl class="hidden-xs col-sm-12 col-md-7">
+                                            <dt>Mong-Friendly</dt>
+                                            <dd>반려견 목걸이와 전용 식기,쿠션, 배변패드를 제공하고 있습니다</dd>
+                                        </dl>
+                                    </div>
+                                </div> 
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <div class="thumbnail">
+                                        <div>
+                                            <img src="images/hotel5.jpg" alt="쉐라톤 서울" class="col-xs-12 col-sm-12 col-md-5">
+                                        </div>
+                                        <h4 class="col-xs-12 col-sm-12 col-md-7">쉐라톤 서울 팔레스</h4>
+                                        <dl class="col-xs-12 col-sm-12 col-md-7">
+                                            <dt>Mong-Friendly</dt>
+                                            <dd> 미니 기프트박스와 반려견 전용 침대 등이 준비되어있습니다.</dd>
+                                        </dl>
+                                    </div>
+                                </div>  
+                             </div> 
+                        </div>
+                    </div>
+                </section>    
+            </article>
+            <footer id="footerArea">
+                <div class="foot_inner">
+                    <a href="#topMove" onclick="$('#topMove').animatescroll();"><span>top</span></a>
+                    <div class="foot_txt">
+                        <span>이리오개</span>
+                        <span>YOEHENG@NAVER.COM</span>
+                    </div>
+                </div>
+            </footer>
+        
+        
+    </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.wp1').waypoint(function() {    //스크롤링시 효과가 발생할 요소의 클래스나 아이디명.
+                $('.wp1').addClass('animated fadeInLeft');
+            }, {
+             offset: '75%'            //스크롤과의 거리
+            });
+
+            $('.wp2').waypoint(function() {
+            $('.wp2').addClass('animated fadeInUp');
+            }, {
+            offset: '75%'
+            });  
+
+            $('.wp3').waypoint(function() {
+            $('.wp3').addClass('animated fadeInDown');
+            }, {
+            offset: '75%'
+            });
+            $('.wp4').waypoint(function() {
+            $('.wp4').addClass('animated fadeInDown');
+            }, {
+            offset: '75%'
+            });
+        });
+        </script>
+        <script>
+            $('#navbar-example li a').click(function(e){
+                e.preventDefault();
+            });
+        </script>
+</body>
+
+</html>
