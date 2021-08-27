@@ -1,7 +1,9 @@
 ﻿<?
            session_start();
 ?>
-<meta charset="utf-8">
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>대우조선해양 로그인</title>
 <?
    @extract($_GET); 
   @extract($_POST); 
@@ -18,6 +20,7 @@
              window.alert('아이디를 입력하세요.');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }
@@ -28,6 +31,7 @@
              window.alert('비밀번호를 입력하세요.');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }

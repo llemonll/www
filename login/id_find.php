@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>대우조선해양-아이디찾기</title>
 <link rel="stylesheet" href="css/find.css">
 <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
@@ -56,7 +56,7 @@
 			 <div id="login2">
 				<div id="id_input_button">
 					<fieldset>
-                        <label for="name">이&nbsp; 름</label>
+                        <label for="name" >이&nbsp; 름</label>
                         <input type="text" name="name" class="find_input" id="name" placeholder="이름 (ex. test)">
                         <div class="telBox">
                             <label  for="hp1">연락처</label>

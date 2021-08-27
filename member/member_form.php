@@ -212,7 +212,7 @@ $("#nick").keyup(function() {    // id입력 상자에 id값 입력시
      	</tr>
      	<tr class="btn">
      		<td colspan="2">
-     			<a href=""  class="check_agree ok" onclick="check_input()">가입</a>
+     			<a href="#"  class="check_agree ok" onclick="check_input()">가입</a>
 				 <a href="#" class="cancel"  onclick="reset_form()">취소</a>
      		</td>
      	</tr>

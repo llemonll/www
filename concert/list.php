@@ -44,6 +44,8 @@
 				 window.alert('검색할 단어를 입력해 주세요!');
 			     history.go(-1);
 				</script>
+                </head>
+                </html>
 			");
 			exit;
 		}
@@ -111,7 +113,10 @@
                 <form  name="board_form" method="post" action="list.php?table=<?=$table?>&mode=search"> 
                     <div id="list_search">
                         <div id="list_search5"><input type="submit" value="검색"></div>
-                        <div id="list_search4"><input type="text" name="search"></div>
+                        <div id="list_search4">
+                            <label for="search" class="hidden">search</label>
+                            <input id="search" type="text" name="search">
+                        </div>
                         <div id="list_search3">
                             <select name="find">
                                 <option value='subject'>제목</option>

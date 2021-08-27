@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>대우조선해양-비밀번호찾기</title>
 <link rel="stylesheet" href="css/find.css">
 <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>

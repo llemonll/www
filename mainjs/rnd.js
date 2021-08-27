@@ -41,11 +41,11 @@ function settingBusinessArea01() {
     $thisBanner.css("z-index", 2);
     $beforeBanner.css("z-index", 1);
     if (movieDis) {
-        TweenMax.to($thisBanner, 0, { left: 480, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: -450, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: 400, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: -400, ease: Cubic.easeOut });
     } else {
-        TweenMax.to($thisBanner, 0, { left: -480, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: 450, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: -400, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: 400, ease: Cubic.easeOut });
     }
     TweenMax.to($thisBanner.find("img"), 0, { scale: 1.2, ease: Cubic.easeOut });
     TweenMax.to($thisBanner.find("img"), 1.2, { scale: 1, ease: Cubic.easeOut });
@@ -65,11 +65,11 @@ function settingBusinessArea02() {
     $thisBanner.css("z-index", 2);
     $beforeBanner.css("z-index", 1);
     if (movieDis) {
-        TweenMax.to($thisBanner, 0, { left: 360, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: -360, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: 350, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: -350, ease: Cubic.easeOut });
     } else {
-        TweenMax.to($thisBanner, 0, { left: -360, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: 360, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: -350, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: 350, ease: Cubic.easeOut });
     }
     TweenMax.to($thisBanner.find("img"), 0, { scale: 1.2, ease: Cubic.easeOut });
     TweenMax.to($thisBanner.find("img"), 1.2, { scale: 1, ease: Cubic.easeOut });
@@ -91,11 +91,11 @@ function settingBusinessArea03() {
     $thisBanner.css("z-index", 2);
     $beforeBanner.css("z-index", 1);
     if (movieDis) {
-        TweenMax.to($thisBanner, 0, { left: 360, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: -360, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: 350, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: -350, ease: Cubic.easeOut });
     } else {
-        TweenMax.to($thisBanner, 0, { left: -360, ease: Cubic.easeOut });
-        TweenMax.to($beforeBanner, 1.2, { left: 360, ease: Cubic.easeOut });
+        TweenMax.to($thisBanner, 0, { left: -350, ease: Cubic.easeOut });
+        TweenMax.to($beforeBanner, 1.2, { left: 350, ease: Cubic.easeOut });
     }
     TweenMax.to($thisBanner.find("img"), 0, { scale: 1.2, ease: Cubic.easeOut });
     TweenMax.to($thisBanner.find("img"), 1.2, { scale: 1, ease: Cubic.easeOut });

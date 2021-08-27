@@ -1,7 +1,9 @@
 <?
    session_start();
 ?>
-    <meta charset="UTF-8">
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>대우조선해양</title>
 <?
   @extract($_GET); 
   @extract($_POST); 
@@ -24,6 +26,7 @@
              window.alert('이름을 입력하세요');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }
@@ -34,6 +37,7 @@
              window.alert('연락처를 입력하세요');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }

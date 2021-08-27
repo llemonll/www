@@ -1,12 +1,8 @@
 
 $(document).ready(function () {
     var cnt = 1;
-    var imageCount = 4;
-    // var position = 1200;
-    // $('.gallery .gallery_mini ul').before( $('.gallery .gallery_mini ul').clone());
-    
+    var imageCount = 3;
 
-    // 이미지 리스트 클릭시
     $('.gallery_top1').css('background', 'url(/sub3/images/content2/con1.jpg)');
     $('.gallery_top2').css('background', 'url(/sub3/images/content2/rnd1.jpg)');
     $('.gallery_top3').css('background', 'url(/sub3/images/content2/rndb1.jpg)');
@@ -38,13 +34,7 @@ $(document).ready(function () {
         $('.gallery_top').show();
 
 
-       
-        
-        console.log(select)
-
-        // position-=250;
-        // $('.gallery ul').css('left', position);
-
+    
 
         cnt = ind + 1;
     });
@@ -72,19 +62,6 @@ $(document).ready(function () {
             $('.gallery_bot li:eq(' + (cnt + 8) + ')').addClass('select');
             cnt++; 
 
-            // if(cnt>4){
-            // $('.gallery_bot ul').css('left', -1200);
-            // }else if(cnt<=4){
-            // $('.gallery_bot ul').css('left', 0);
-            // }
-
-
-            // position-=250;
-            // // $('.gallery ul').css('left', position);
-            // if(position<=-2200){
-            //     position=250;
-            // }
-            // //카운트 1씩증가
 
         } else if ($(this).is('.btnLeft')) {
             if (cnt == 1) cnt = imageCount + 1;
@@ -100,23 +77,6 @@ $(document).ready(function () {
             $('.gallery_bot li:eq(' + (cnt - 6) + ')').addClass('select');
             $('.gallery_bot li:eq(' + (cnt - 10) + ')').addClass('select');
             cnt--;
-
-            // if(cnt>4){
-            // $('.gallery_bot ul').css('left', -1200);
-            // }else if(cnt<=4){
-            // $('.gallery_bot ul').css('left', 0);
-            // }
-
-            // position+=250;
-            // // $('.gallery ul').css('left', position);
-            // if(position>=250){
-            //     position=-2200;
-            // }
-
-             //카운트 감소
-
-            
-            
 
 
         }

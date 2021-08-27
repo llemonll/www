@@ -18,11 +18,11 @@ $(document).ready(function () {
 
   $('.dropdownmenu .menu ul li ').hover(
     function () {
-      $('a', this).css('font-weight', '600');
+      // $('a', this).css('font-weight', '600');
       $('a', this).css('color', '#0065b3', function () { $(this).stop(); });
     }, function () {
       $('a', this).css('color', '#333');
-      $('a', this).css('font-weight', '400');
+      // $('a', this).css('font-weight', '400');
 
 });
 

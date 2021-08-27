@@ -32,7 +32,7 @@ p,li,dd{ line-height:1.5em}
 #wrap{ overflow: hidden; position: relative;}
 #wrap h1 {width:500px; height:153px; position:absolute; top:3.5%; left:50%; transform: translateX(-50%); z-index: 20;}
 #wrap h1 a {display:block; width: 100%; height: 100%; background:url(../images/pnglogo_2.png) center no-repeat; background-size:cover;
-					text-indent: -999999px; }
+					text-indent: -9999999999999999px; }
 #headerArea {width:100%; overflow:hidden; position:absolute; right:0;  z-index: 20; height: 90px;}
 #gnb{width:100%; overflow:hidden; z-index: 5; background: #31cbb1;}
 .mainMenu {overflow: hidden;}

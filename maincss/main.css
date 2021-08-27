@@ -76,15 +76,15 @@ img{border:0; vertical-align:top;}
 
 .main_business_area{width: 100%; margin-bottom: 130px;}
 .main_business_area img{ transition: all .5s ease-out;  height: 100%;}
-.main_business_area h3{font-size: 50px; position: relative; left:337px; top:160px; padding-left:50px; width: fit-content; }
-.main_business_area h3::before{content: ''; display: block; width:8px; height: 60px; background: #0065b3; position:absolute; top:-4px; left:31px;}
+.main_business_area h3{font-size: 50px; position: relative; left:0; top:160px; padding-left:30px; width: fit-content; }
+.main_business_area h3::before{content: ''; display: block; width:8px; height: 60px; background: #0065b3; position:absolute; top:0; left:0;}
 .main_business_area{position: relative; overflow: hidden; width:100%; background:#fff}
 .main_business_area a{display: block;}
-.main_business_area .inner{width: 1180px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.main_business_area .inner{width: 1200px; margin: 0 auto; box-sizing: border-box; position: relative;}
 .main_business_area .main_business_slider{position: relative;}
 .main_business_area ul{margin-top:200px; width:400px; height:600px; overflow:hidden; display: inline-block; position: relative;}
-.main_business_area ul.slider02{position:absolute; left:420px; margin-top:85px; width:350px; height:585px;}
-.main_business_area ul.slider03{position:absolute; left:790px; width:350px; height:680px; top:-73px}
+.main_business_area ul.slider02{position:absolute; left:450px; margin-top:85px; width:350px; height:585px;}
+.main_business_area ul.slider03{position:absolute; left:849px; width:350px; height:680px; top:-73px}
 .main_business_area ul li{box-sizing:border-box; padding-right:60px; float:left; position: absolute; color:#fff; z-index:0; cursor:pointer;}
 .main_business_area ul li img{width:450px;}
 .main_business_area ul.slider02 li img{width:400px;}
@@ -93,16 +93,18 @@ img{border:0; vertical-align:top;}
 .main_business_area ul.slider02 li.active img{width:400px;}
 .main_business_area ul.slider03 li.active img{width:360px;}
 .main_business_area ul li strong,
-.main_business_area .slider_mask strong{position: absolute; bottom:40px; left:15px; font-size:30px; letter-spacing: -0.5px; line-height: 1.6; font-weight: 700;
+.main_business_area .slider_mask strong{position: absolute; bottom:-20px; left:15px; font-size:30px; letter-spacing: -0.5px; line-height: 1.6; font-weight: 700;
                                         box-sizing: border-box; color: #fff;}
+.main_business_area ul:nth-of-type(1) li strong{top:500px}
+.main_business_area ul:nth-of-type(2) li strong{top:540px}
 .main_business_area ul li strong span,
-.main_business_area .slider_mask strong span{display: block;margin-bottom:8px;font-size:18px;line-height: 1.64; letter-spacing: -0.7px; font-weight: 400; white-space: pre-line; opacity: 0; 
+.main_business_area .slider_mask strong span{display: block; margin-bottom:8px; font-size:18px; line-height: 1.64; letter-spacing: -0.7px; font-weight: 400; white-space: pre-line; opacity: 0; 
                                             height:0; overflow: hidden;}
 .main_business_area ul li.active strong span,
 .main_business_area .slider_mask strong span{opacity: 1;height:auto;}
 .main_business_area .slider_mask{position: absolute; left:0; top:0; width:450px; -webkit-transform: matrix(1, 0, 0, 1, 0, 140); transform: matrix(1, 0, 0, 1, 0, 140); color:#fff;}
 
-.main_business_area .main_business_slider .slider_nav{position: absolute; left:572px; margin-left:-40px; top:720px; overflow:hidden;}
+.main_business_area .main_business_slider .slider_nav{position: absolute; left:600px; margin-left:-40px; top:738px; overflow:hidden;}
 .main_business_area .main_business_slider .slider_nav button + button{margin-left:20px;}
 .slider_nav button{font-size:0; width:50px; height:50px; border-radius: 50%; box-sizing: border-box; border: 0; cursor: pointer; background:#fff; border:1px #333 solid; 
     border-radius: 50%; position: relative;}
@@ -114,14 +116,16 @@ img{border:0; vertical-align:top;}
 
 /* 보도 자료*/
 .board{width: 100%; padding:150px 0 100px;  background:#f6f6f6; overflow: hidden;}
-.board .news{position: relative; margin-left: 350px;}
+.board_inner{width: 1200px; margin: 0 auto; overflow: hidden;}
+.board .news{position: relative;}
 .board .news::before{content: ''; display: block; width: 530px; height: 2px; background: #0065b377; position: absolute; top:65px }
 .board .news h3{font-size: 40px;}
 .board .news a{display: block;}
 .board .news{width:600px; float:left; }
 .board .news .board_left{margin-top: 150px; }
 .board .news .board_left ul{overflow: hidden;}
-.board .news .board_left li{float:left; width: 256px; height: 460px; margin-right: 20px ;border: 1px solid #ccc; border-radius: 20px; background: #fff; transition: all .5s ease;}
+.board .news .board_left li{float:left; width: 256px; height: 460px; margin-right: 20px ;border: 1px solid #ccc; border-radius: 20px; 
+                        background: #fff; transition: all .5s ease;}
 .board .news .board_left li:nth-child(2){margin:0}
 .board .news .board_left li:hover{border: 1px solid #0089d1; }
 .board .news .board_left img{width: 239px; height: 160px; border-radius: 20px; margin: 7px 8px 15px 9px;  transition: all .5s;}
@@ -136,7 +140,7 @@ img{border:0; vertical-align:top;}
 
 
 .board .notice h3{font-size: 40px; }
-.board .notice {width:580px; float:right; padding: 0 10px; position: relative; margin-right: 350px;}
+.board .notice {width:580px; float:right; padding: 0 10px; position: relative;}
 .board .notice::before{content: ''; display: block; width: 570px; height:2px; background:#fa7d0177; position: absolute; top:65px;}
 
 .board .notice .board_right{margin-top: 150px; }

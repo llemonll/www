@@ -3,7 +3,9 @@
 	$table = "concert";
 	$ripple = "free_ripple";
 ?>
-<meta charset="utf-8">
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>대우조선해양</title>
 <?
    /*
    세션변수
@@ -23,6 +25,7 @@
 	     window.alert('로그인 후 이용하세요.');
 	     history.go(-1);
 	   </script>
+     </html>
 	 ");
 	 exit;
    }   
